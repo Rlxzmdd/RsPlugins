@@ -53,7 +53,7 @@ public class MessageMainClass extends PluginBase implements Listener {
             String asd = this.get("Player.Quit",(Player)mapentry.getValue());
             asd = asd.replaceAll("\\{Player\\}", event.getPlayer().getName());
             if(this.UseTip("Quit"))
-                ((Player) mapentry.getValue()).sendTip(asd);
+                ((Player) mapentry.getValue()).sendTip(asd); 
             if(this.UsePopup("Quit"))
                 ((Player) mapentry.getValue()).sendPopup(asd);
             if(this.UseMessage("Quit"))

@@ -54,8 +54,8 @@
       <file leaf-file-name="MessageMainClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Message/MessageMainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64878047">
-              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24715447">
+              <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#onEnable#0;class#MessageMainClass#0" expanded="false" />
@@ -883,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Message/MessageMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64878047">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24715447">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#onEnable#0;class#MessageMainClass#0" expanded="false" />
