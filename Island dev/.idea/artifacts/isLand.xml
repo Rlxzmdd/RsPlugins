@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="isLand">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="isLand.jar">
+      <element id="module-output" name="IsLand" />
+    </root>
+  </artifact>
+</component>

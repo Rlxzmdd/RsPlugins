@@ -1,0 +1,13 @@
+---
+#以下暂时无效
+Can.See.Server: false
+#true And false
+Mysql.Use: false
+#If you want use Mysql,Please amend to true
+Mysql.Host: jdbc:mysql://127.0.0.1:3306/AllUser
+Mysql.Data: Players
+Mysql.User: root
+Mysql.Pass: root
+#If you want use Mysql,Must amend there
+#但是这暂时没用
+...

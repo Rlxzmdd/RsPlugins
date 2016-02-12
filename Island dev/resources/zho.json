@@ -1,0 +1,9 @@
+{
+  "Error.lang":"一个错误的输出信息，快去联系管理员",
+  "Your.lang":"您应该来自中国，您的系统提示将会使用：中文", 
+  "Welcome.to.server":"欢迎来到极限自由服务器！",
+  "No.Host.IsLand":"你探索到了一个无主之岛",
+  "Return.IsLand":"你回到了你自己的空岛",
+  "Go.Other.IsLand":"你进入了别人的空岛，这个空岛的主人为",
+  "Isn't.Host":"嘿，这个空岛不属于你！"
+}

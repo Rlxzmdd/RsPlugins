@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RsAuto">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="RsAuto.jar">
+      <element id="module-output" name="RsAuto" />
+    </root>
+  </artifact>
+</component>

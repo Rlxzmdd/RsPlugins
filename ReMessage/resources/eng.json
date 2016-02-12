@@ -1,0 +1,5 @@
+{
+ "Error.lang": "text input has been a error, please told the administrator",
+ "Player.Quit": "Player {Player} quit server",
+ "Player.Join": "Player {Player} join server"
+}

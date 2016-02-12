@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RsFunction">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../plugins/RsFunction.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

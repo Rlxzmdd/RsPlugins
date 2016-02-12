@@ -1,0 +1,9 @@
+name: IsLand
+main: Rs.Plugin.IsLand.IsLandMainClass
+version: 1.0.0
+api: 1.0.0
+load: POSTWORLD
+author: zmdd
+description: "Island of Rs"
+depend:
+ - RsFunction

@@ -1,0 +1,38 @@
+{
+"Error.lang":"Text input has been a mistake, please inform the administrator",
+
+"Verification.One":"Please enter the verification code...",
+"Verification.Two":"Please enter the verification code again...",
+"Verification.Code":"Verification code input is correct",
+"Verification.Error":"Verification code input error",
+
+"Password.One":"Please enter your favorite password.",
+"Password.One.End":"You enter the password for...",
+"Password.Two":"Please enter it again.",
+"Password.Two.Error":"Password input error",
+"Password.Success":"Password input correctly",
+"Password.Error":"Password input error",
+
+"Register.Success":"Successful registration!",
+"Register.Re":"Please re register",
+
+"Login.Success":"Successful Login! Please enjoy the game!",
+
+"New.Player.1":"Welcome to this server",
+"New.Player.2":"Please register first",
+
+"Old.Player.1":"Welcome back to the server",
+"Old.Player.2":"Please make the first landing",
+"Old.Player.3":"Please enter the password you entered in the register.",
+
+"No.LoginAndRegsiter":"Please make a visit",
+
+"Isnt.Player":"You isn't Player",
+"Want.Unresgiter":"Please enter want unregister account ",
+"Plaes.enter":"Please enter this:",
+"Enter.Player":"You enter account is:",
+"This.no.Register":"This account no register,",
+"Sc.unregister":"Success unregister this account:",
+
+"Prefix":"Auto||"
+}
