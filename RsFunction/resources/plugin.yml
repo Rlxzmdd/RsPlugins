@@ -1,0 +1,16 @@
+name: RsFunction
+main: Rs.Plugin.Function.RsFunction
+version: 1.0.2
+api: 1.0.0
+load: STARTUP
+author: zmdd
+description: "Function of Rs"
+commands:
+ language:
+  description: "Change Lang"
+  permission: Rs.Command.Function.language
+  usage: "/language [id]"
+permissions:
+ Rs.Command.Function.language:
+  default: true
+  description: "Change Lang"
