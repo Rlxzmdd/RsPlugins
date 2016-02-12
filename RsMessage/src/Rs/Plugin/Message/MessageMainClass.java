@@ -108,25 +108,25 @@ public class MessageMainClass extends PluginBase implements Listener {
         }
         event.setDeathMessage(new TextContainer(""));
        /*
-        death.fell.accident.generic={%0} ´Ó¸ß´¦Ë¤ÁËÏÂÀ´
-        death.attack.inFire={%0} Ô¡»ğ·ÙÉí
-        death.attack.onFire={%0} ±»ÉÕËÀÁË
-        death.attack.lava={%0} ÊÔÍ¼ÔÚÑÒ½¬ÀïÓÎÓ¾
-        death.attack.inWall={%0} ÔÚÇ½ÀïÖÏÏ¢¶øÍö
-        death.attack.drown={%0} ÑÍËÀÁË
-        death.attack.cactus={%0} ±»´ÁËÀÁË
-        death.attack.generic={%0} ËÀÁË
-        death.attack.explosion={%0} ±¬Õ¨ÁË
-        death.attack.explosion.player={%0} ±» {%1} Õ¨ËÀÁË
-        death.attack.magic={%0} ±»Ä§·¨É±ËÀÁË
-        death.attack.wither={%0} µòĞ»ÁË
-        death.attack.mob={%0} ±» {%1} É±ËÀÁË
-        death.attack.player={%0} ±» {%1} É±ËÀÁË
-        death.attack.player.item={%0} ±» {%1} ÓÃ {%2} É±ËÀÁË
-        death.attack.arrow={%0} ±» {%1} ÉäÉ±
-        death.attack.arrow.item={%0} ±» {%1} ÓÃ {%2} ÉäÉ±
-        death.attack.fall={%0} ÂäµØ¹ıÃÍ
-        death.attack.outOfWorld={%0} µô³öÁËÕâ¸öÊÀ½ç
+        death.fell.accident.generic={%0} ä»é«˜å¤„æ‘”äº†ä¸‹æ¥
+        death.attack.inFire={%0} æµ´ç«ç„šèº«
+        death.attack.onFire={%0} è¢«çƒ§æ­»äº†
+        death.attack.lava={%0} è¯•å›¾åœ¨å²©æµ†é‡Œæ¸¸æ³³
+        death.attack.inWall={%0} åœ¨å¢™é‡Œçª’æ¯è€Œäº¡
+        death.attack.drown={%0} æ·¹æ­»äº†
+        death.attack.cactus={%0} è¢«æˆ³æ­»äº†
+        death.attack.generic={%0} æ­»äº†
+        death.attack.explosion={%0} çˆ†ç‚¸äº†
+        death.attack.explosion.player={%0} è¢« {%1} ç‚¸æ­»äº†
+        death.attack.magic={%0} è¢«é­”æ³•æ€æ­»äº†
+        death.attack.wither={%0} å‡‹è°¢äº†
+        death.attack.mob={%0} è¢« {%1} æ€æ­»äº†
+        death.attack.player={%0} è¢« {%1} æ€æ­»äº†
+        death.attack.player.item={%0} è¢« {%1} ç”¨ {%2} æ€æ­»äº†
+        death.attack.arrow={%0} è¢« {%1} å°„æ€
+        death.attack.arrow.item={%0} è¢« {%1} ç”¨ {%2} å°„æ€
+        death.attack.fall={%0} è½åœ°è¿‡çŒ›
+        death.attack.outOfWorld={%0} æ‰å‡ºäº†è¿™ä¸ªä¸–ç•Œ
         */
     }
 
