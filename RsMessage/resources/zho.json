@@ -1,5 +1,31 @@
 {
  "Error.lang":"一个错误的输出信息，快去联系管理员",
  "Player.Quit":"玩家{Player}退出了服务器",
- "Player.Join":"玩家{Player}加入了服务器"
+ "Player.Join":"玩家{Player}加入了服务器",
+ 
+ "death.fell.accident.generic":"{Player} 从高处摔了下来",
+ "death.attack.inFire":"{Player} 浴火焚身",
+ "death.attack.onFire":"{Player} 被烧死了",
+ "death.attack.lava":"{Player} 试图在岩浆里游泳",
+ "death.attack.inWall":"{Player} 在墙里窒息而亡",
+ "death.attack.drown":"{Player} 淹死了",
+ "death.attack.cactus":"{Player} 被戳死了",
+ "death.attack.generic":"{Player} 死了",
+ "death.attack.explosion":"{Player} 爆炸了",
+ "death.attack.explosion.player":"{Player} 被炸死了",
+ //"death.attack.explosion.player":"{Player} 被 {%1} 炸死了",
+ "death.attack.magic":"{Player} 被魔法杀死了",
+ "death.attack.wither":"{Player} 凋谢了",
+ "death.attack.mob":"{Player} 被杀死了",
+ "death.attack.player":"{Player} 被杀死了",
+ "death.attack.player.item":"{Player} 被杀死了",
+ "death.attack.arrow":"{Player} 被射~死了",
+ "death.attack.arrow.item":"{Player} 被射~~死了",
+ //"death.attack.mob":"{Player} 被 {%1} 杀死了",
+ //"death.attack.player":"{Player} 被 {%1} 杀死了",
+// "death.attack.player.item":"{Player} 被 {%1} 用 {%2} 杀死了",
+// "death.attack.arrow":"{Player} 被 {%1} 射杀",
+ //"death.attack.arrow.item":"{Player} 被 {%1} 用 {%2} 射杀",
+ "death.attack.fall":"{Player} 落地过猛",
+ "death.attack.outOfWorld":"{Player} 掉出了这个世界"
 }

@@ -1,3 +1,8 @@
-UseTip: true
-UsePopup: false
-UseMessage: false
+UseTip:
+- Join
+- Quit
+- Death
+UsePopup: 
+- 233
+UseMessage: 
+- 233
