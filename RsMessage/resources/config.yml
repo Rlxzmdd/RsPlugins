@@ -6,3 +6,7 @@ UsePopup:
 - 233
 UseMessage: 
 - 233
+Logger:
+- Join
+- Quit
+- Death

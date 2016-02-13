@@ -53,7 +53,7 @@ public class MessageMainClass extends PluginBase implements Listener {
             String asd = this.get("Player.Quit",(Player)mapentry.getValue());
             asd = asd.replaceAll("\\{Player\\}", event.getPlayer().getName());
             if(this.UseTip("Quit"))
-                ((Player) mapentry.getValue()).sendTip(asd); 
+                ((Player) mapentry.getValue()).sendTip(asd);
             if(this.UsePopup("Quit"))
                 ((Player) mapentry.getValue()).sendPopup(asd);
             if(this.UseMessage("Quit"))
@@ -62,6 +62,8 @@ public class MessageMainClass extends PluginBase implements Listener {
     }
     @EventHandler
     public void onJon(PlayerJoinEvent event){
+        event.getPlayer().addAttachment(this).setPermission("233",true);
+        getLogger().info(""+event.getPlayer().hasPermission("233")+","+event.getPlayer().hasPermission("23?"));
         // System.out.print("233?");
         //event.setJoinMessage(null);
         event.setJoinMessage("");
@@ -86,6 +88,8 @@ public class MessageMainClass extends PluginBase implements Listener {
     }
     @EventHandler
     public void ondie(PlayerDeathEvent event){
+
+
         // System.out.print("233?");
         //event.setJoinMessage(new TextContainer("233?"));
         //getLogger().info(event.getDeathMessage().getText());
@@ -149,7 +153,6 @@ public class MessageMainClass extends PluginBase implements Listener {
             event.setCancelled();
         }
     }*/
-
 
     public boolean UseTip(String mode){
         Config config = new Config(new File("plugins/RsMessage/config.yml").getAbsoluteFile(),Config.YAML);
