@@ -28,7 +28,12 @@ public class MessageMainClass extends PluginBase implements Listener {
         saveResource("eng.json", false);
         saveResource("zho.json", false);
         saveResource("config.yml", false);
+        saveResource("PTNotice",false);
+        this.getServer().getScheduler().scheduleRepeatingTask(new PTNotice(this),20*1);
+        this.getServer().getCommandMap().register("notice", new NoticeCommand(this, "notice"));
         //getLogger().info(new Rs.Plugin.Function.position("1.1.1.1").getLang());
+        //todo:Notice，两种方式一个popup和tip持续公告，一个message隔断时间发布
+        //初步完成
    }
     public String get(String lang,Player player) {
         return (this.run.getMsg(lang,new Rs.Plugin.Message.Lang(),this.run.getPlayerLang(player)));
@@ -62,8 +67,8 @@ public class MessageMainClass extends PluginBase implements Listener {
     }
     @EventHandler
     public void onJon(PlayerJoinEvent event){
-        event.getPlayer().addAttachment(this).setPermission("233",true);
-        getLogger().info(""+event.getPlayer().hasPermission("233")+","+event.getPlayer().hasPermission("23?"));
+       // event.getPlayer().addAttachment(this).setPermission("233",true);
+        //getLogger().info(""+event.getPlayer().hasPermission("233")+","+event.getPlayer().hasPermission("23?"));
         // System.out.print("233?");
         //event.setJoinMessage(null);
         event.setJoinMessage("");
