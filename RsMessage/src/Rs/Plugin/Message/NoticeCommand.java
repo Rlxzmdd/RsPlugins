@@ -22,7 +22,7 @@ class NoticeCommand extends Command implements PluginIdentifiableCommand {
     @Override
     public boolean execute(CommandSender commandSender, String s, String[] strings) {
         if(strings.length < 1){
-            commandSender.sendMessage("ÇëÊäÈë¶þ¼¶Ö¸Áî");
+            commandSender.sendMessage("è¯·è¾“å…¥äºŒçº§æŒ‡ä»¤");
             return false;
         }
         switch(strings[0]){
