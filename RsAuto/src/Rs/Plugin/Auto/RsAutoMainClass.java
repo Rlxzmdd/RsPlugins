@@ -99,7 +99,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
         return false;
     }
 
-    @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = false)
+    @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = false)
     public boolean onPlayerRsg(PlayerChatEvent event) {
         //PlayerConfig mysql = new PlayerConfig(event.getPlayer(),event.getMessage());
         //mysql.File = this.getDataFolder();
@@ -114,10 +114,12 @@ public class RsAutoMainClass extends PluginBase implements Listener {
         //第二遍如果输入正确，直接进入1状态
         Player player = event.getPlayer();
         String name = player.getName();
+        String msg = event.getMessage();
         // System.out.println(event.getMessage());
         switch (Integer.parseInt(PlayerConfig.get(name).get("isLogin").toString())) {
             case (0):
-                if (PlayerConfig.get(name).get("Maths").toString().equals(event.getMessage())) {
+                if (PlayerConfig.get(name).get("Maths").toString().equals(msg)) {
+                    event.setMessage("");
                     player.sendMessage(this.get("Verification.Code", player));
                     player.sendMessage(this.get("Password.One", player));
                     //this.isLogin = 3;
@@ -138,9 +140,10 @@ public class RsAutoMainClass extends PluginBase implements Listener {
             case (1):
                 return true;
             case (2):
-                RsAuto mysql = new RsAuto(player, event.getMessage(), this);
+                event.setMessage("");
+                RsAuto mysql = new RsAuto(player, msg, this);
                 mysql.main = this;
-                if (mysql.getPassword(event.getPlayer().getName()).equals(event.getMessage())) {
+                if (mysql.getPassword(event.getPlayer().getName()).equals(msg)) {
                     player.sendMessage(this.get("Password.Success", player));
                     player.sendMessage(this.get("Login.Success", player));
                     //this.isLogin = 1;
@@ -149,7 +152,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                         event.getPlayer().setOp(true);
                     }
                     qwe.put("isLogin", 1);
-                    qwe.put("Password", event.getMessage());
+                    qwe.put("Password", msg);
                     qwe.put("Maths", Long.valueOf(PlayerConfig.get(event.getPlayer().getName()).get("isLogin").toString()));
                     if(event.getPlayer().isOp()){
                         qwe.put("Op","True");
@@ -168,13 +171,14 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                 event.setCancelled();
                 return true;
             case (3):
-                //this.pwd = event.getMessage();
-                player.sendMessage(this.get("Password.One.End", player) + event.getMessage());
+                event.setMessage("");
+                //this.pwd = msg;
+                player.sendMessage(this.get("Password.One.End", player) + msg);
                 player.sendMessage(this.get("Password.Two", player));
                 //this.isLogin = 4;
                 Map qwe = new HashMap<String, Objects>();
                 qwe.put("isLogin", 4);
-                qwe.put("Password", event.getMessage());
+                qwe.put("Password", msg);
                 qwe.put("Maths", Long.valueOf(PlayerConfig.get(event.getPlayer().getName()).get("isLogin").toString()));
                 qwe.put("Op",PlayerConfig.get(name).get("Op").toString());
                 PlayerConfig.put(event.getPlayer().getName(), qwe);
@@ -182,10 +186,11 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                 event.setCancelled();
                 return true;
             case (4):
-                if (PlayerConfig.get(event.getPlayer().getName()).get("Password").toString().equals(event.getMessage())) {
+                event.setMessage("");
+                if (PlayerConfig.get(event.getPlayer().getName()).get("Password").toString().equals(msg)) {
                     //String xx = this.pwd("NewPlayer", event.getPlayer(), this.pwd);
-                    RsAuto mysqla = new RsAuto(player, event.getMessage(), this);
-                    mysqla.Password = event.getMessage();
+                    RsAuto mysqla = new RsAuto(player, msg, this);
+                    mysqla.Password = msg;
                     mysqla.NewPlayer();
                     player.sendMessage(this.get("Register.Success", player));
                     // player.sendMessage("您的账号为:" + name + ",您的密码为:" + this.pwd + ",请牢记");
@@ -198,7 +203,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                     }
                     Map qweqwe = new HashMap<String, Objects>();
                     qweqwe.put("isLogin", 1);
-                    qweqwe.put("Password", event.getMessage());
+                    qweqwe.put("Password", msg);
                     qweqwe.put("Maths", Long.valueOf(PlayerConfig.get(event.getPlayer().getName()).get("isLogin").toString()));
                     if(event.getPlayer().isOp()){
                         qweqwe.put("Op","True");
