@@ -44,7 +44,7 @@
       <file leaf-file-name="RsAutoMainClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3752244">
+            <state vertical-scroll-proportion="0.88689405">
               <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
               <folding>
                 <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
@@ -306,7 +306,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1234" height="804" extended-state="1" />
+    <frame x="54" y="-8" width="1234" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -778,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3752244">
+        <state vertical-scroll-proportion="0.88689405">
           <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
           <folding>
             <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />

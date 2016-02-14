@@ -27,10 +27,10 @@ class NoticeCommand extends Command implements PluginIdentifiableCommand {
         }
         switch(strings[0]){
             case"add":
-                //<>
             case"remove":
             case"list":
             case"set":
+                commandSender.sendMessage("指令暂未开发");
         }
         return false;
     }
