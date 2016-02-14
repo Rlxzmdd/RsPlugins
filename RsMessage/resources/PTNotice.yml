@@ -1,15 +1,14 @@
 WillUse:
 - Example
 #索引队列
-
 Example:
   UseTime: '201602131707'
   #使用过的时间，请勿随意更改
   Mode: Tip
   #Contect输出的形式，可以为Popup或Tip
   Duration: '1'
-  #公告持续的时间
+  #公告持续的时间，时间单位为分钟
   Intervel: '5'
-  #公告间隔的时间
+  #公告间隔的时间，同上
   Contect: 欢迎加入我们的服务器，这是一段公告
   #公告文本
