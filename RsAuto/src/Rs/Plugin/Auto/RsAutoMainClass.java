@@ -31,8 +31,8 @@ public class RsAutoMainClass extends PluginBase implements Listener {
 
     public void onEnable() {
         this.saveResource("config.yml");
-        saveResource("eng.json", false);
-        saveResource("zho.json", false);
+        saveResource("en.json", false);
+        saveResource("zh.json", false);
         // new isLand().addGenerator(isLand.class,"isLand",3);
         this.getLogger().info(TextFormat.DARK_GREEN + "RsAuto is Loaded");
         this.getServer().getPluginManager().registerEvents(this, this);

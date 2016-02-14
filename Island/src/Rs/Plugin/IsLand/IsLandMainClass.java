@@ -35,8 +35,8 @@ public class IsLandMainClass extends PluginBase implements Listener
         saveResource("config.yml");
         saveResource("isLandUsed.yml");
         saveResource("PlayerWarp.json");
-        saveResource("eng.json");
-        saveResource("zho.json");
+        saveResource("en.json");
+        saveResource("zh.json");
 
         //Addresses asdasd = new Addresses();
        // try {

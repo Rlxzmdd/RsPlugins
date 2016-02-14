@@ -20,7 +20,7 @@ public class lang implements Lang
                 return lang.get(msg).toString();
             }
         }else{
-            Config config = new Config( new File(new File("plugins/IsLand").getAbsoluteFile()+"/eng.json"), Config.JSON);
+            Config config = new Config( new File(new File("plugins/IsLand").getAbsoluteFile()+"/en.json"), Config.JSON);
             Map<String,Object> lang = config.getAll();
             if (!lang.containsKey(msg)) {
                 return lang.get("Error.lang").toString();

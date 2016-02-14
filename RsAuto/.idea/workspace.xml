@@ -44,28 +44,27 @@
       <file leaf-file-name="RsAutoMainClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88689405">
-              <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.12101911">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
-                <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#2523#2597#0" expanded="false" />
+                <element signature="e#2521#2595#0" expanded="false" />
                 <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#3965#3973#0" expanded="false" />
+                <element signature="e#3963#3971#0" expanded="false" />
                 <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#15313#15349#0" expanded="false" />
+                <element signature="e#15311#15347#0" expanded="false" />
                 <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zho.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/zho.json">
+      <file leaf-file-name="Lang.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -82,6 +81,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java" />
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java" />
       </list>
     </option>
@@ -93,7 +93,7 @@
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1234" />
-    <option name="height" value="804" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -112,7 +112,7 @@
     <ConfirmationsSetting value="0" id="移除" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -123,7 +123,45 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -306,20 +344,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1234" height="804" extended-state="0" />
+    <frame x="54" y="-8" width="1234" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25383306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24957411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -329,10 +369,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -367,26 +405,58 @@
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="120" column="76" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="76" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
+          <folding>
+            <element signature="e#2521#2595#0" expanded="false" />
+            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
+            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
+            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -411,24 +481,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,24 +514,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,24 +547,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,24 +580,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,24 +613,81 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2521#2595#0" expanded="false" />
+            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
+            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
+            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2521#2595#0" expanded="false" />
+            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
+            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
+            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,24 +712,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,24 +737,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,24 +762,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,24 +787,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,22 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/zho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -776,19 +815,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88689405">
-          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.12101911">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
-            <element signature="method#onEnable#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#2523#2597#0" expanded="false" />
+            <element signature="e#2521#2595#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3965#3973#0" expanded="false" />
+            <element signature="e#3963#3971#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15313#15349#0" expanded="false" />
+            <element signature="e#15311#15347#0" expanded="false" />
             <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
           </folding>
         </state>

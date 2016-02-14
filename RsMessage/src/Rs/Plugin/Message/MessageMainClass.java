@@ -25,8 +25,8 @@ public class MessageMainClass extends PluginBase implements Listener {
         //File asd = new File(getDataFolder() + "/Langs/");
         getServer().getPluginManager().registerEvents(this, this);
         //asd.mkdirs();
-        saveResource("eng.json", false);
-        saveResource("zho.json", false);
+        saveResource("en.json", false);
+        saveResource("zh.json", false);
         saveResource("config.yml", false);
         saveResource("PTNotice",false);
         this.getServer().getScheduler().scheduleRepeatingTask(new PTNotice(this),20*1);

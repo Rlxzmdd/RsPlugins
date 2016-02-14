@@ -36,20 +36,20 @@ public class RsFunction extends PluginBase implements Listener {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equals("language")) {
             if (args.length < 1) {
-                sender.sendMessage("id: eng");
+                sender.sendMessage("id: en");
                 sender.sendMessage(" - Language: English");
-                sender.sendMessage("id: zho");
+                sender.sendMessage("id: zh");
                 sender.sendMessage(" - Language: China");
-                sender.sendMessage("id: rus");
+                sender.sendMessage("id: ru");
                 sender.sendMessage(" - Language: Russian ");
-                sender.sendMessage("id: jap");
+                sender.sendMessage("id: ja");
                 sender.sendMessage(" - Language: Japan");
-                sender.sendMessage("id: rus");
+                sender.sendMessage("id: ko");
                 sender.sendMessage(" - Language: Korea");
                 return false;
             }
 
-            if (args[0].equals("eng") || args[0].equals("zho") || args[0].equals("rus") || args[0].equals("jap") || args[0].equals("rus")) {
+            if (args[0].equals("en") || args[0].equals("zh") || args[0].equals("ru") || args[0].equals("ja") || args[0].equals("ko")) {
                 if (sender instanceof Player) {
                     File file = new File(this.fileName + "/Players/" + sender.getName() + ".json");
                     if (file.exists()) {
@@ -85,16 +85,15 @@ public class RsFunction extends PluginBase implements Listener {
                     }
                 }
             } else {
-                sender.sendMessage("Change Language fail");
-                sender.sendMessage("id: eng");
+                sender.sendMessage("id: en");
                 sender.sendMessage(" - Language: English");
-                sender.sendMessage("id: zho");
+                sender.sendMessage("id: zh");
                 sender.sendMessage(" - Language: China");
-                sender.sendMessage("id: rus");
+                sender.sendMessage("id: ru");
                 sender.sendMessage(" - Language: Russian ");
-                sender.sendMessage("id: jap");
+                sender.sendMessage("id: ja");
                 sender.sendMessage(" - Language: Japan");
-                sender.sendMessage("id: rus");
+                sender.sendMessage("id: ko");
                 sender.sendMessage(" - Language: Korea");
                 return false;
             }

@@ -12,55 +12,55 @@ public class FunctionUtils {
         String country = locale.getCountry();
         switch (language){
             case"zh":
-                return "zho";
+                return "zh";
             case"zh-CN":
-                return "zho";
+                return "zh";
             case"zh-HK":
-                return "zho";
+                return "zh";
             case"zh-MO":
-                return "zho";
+                return "zh";
             case"zh-SG":
-                return "zho";
+                return "zh";
             case"zh-TW":
-                return "zho";
+                return "zh";
             case"ja":
-                return "jap";
+                return "ja";
             case"ja-JP":
-                return "jap";
+                return "ja";
             case"ko":
-                return "kor";
+                return "ko";
             case"ko-KR":
-                return "kor";
+                return "ko";
             case"ru":
-                return "rus";
+                return "ru";
             case"ru-RU":
-                return "rus";
+                return "ru";
         }
         return this.getl(country);
     }
     public String getl(String c){
         switch (c){
             case"CN":
-                return "zho";
+                return "zh";
             case"TW":
-                return "zho";
+                return "zh";
             case"HK":
-                return "zho";
+                return "zh";
             case"MO":
-                return "zho";
+                return "zh";
             case"BY":
-                return "rus";
+                return "ru";
             case"RU":
-                return "rus";
+                return "ru";
             case"JP":
-                return "jap";
+                return "ja";
             case"KR":
-                return "kor";
+                return "ko";
             case"US":
-                return "eng";
+                return "en";
             case"GB":
-                return "eng";
+                return "en";
         }
-        return "eng";
+        return "en";
     }
 }

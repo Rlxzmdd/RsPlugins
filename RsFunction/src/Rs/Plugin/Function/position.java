@@ -193,23 +193,23 @@ public class position
             String address = getAddresses("ip=" + this.ip, "utf-8");
             //System.out.println(address);
             if(address == null){
-                return "eng";
+                return "en";
             }
             if (address.equals("中国"))
-                return "zho";
+                return "zh";
             if (address.equals("美国"))
-                return "eng";
+                return "en";
             if (address.equals("俄罗斯"))
-                return "rus";
+                return "ru";
             if (address.equals("日本"))
-                return "jap";
+                return "ja";
             if(address.equals("韩国"))
-                return "kor";
+                return "ko";
         } catch (UnsupportedEncodingException e) {
             System.out.println(e);
-            return "eng";
+            return "en";
         }
-        return "eng";
+        return "en";
     }
 
 }
