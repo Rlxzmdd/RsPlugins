@@ -206,7 +206,7 @@ public class position
             if(address.equals("韩国"))
                 return "ko";
         } catch (UnsupportedEncodingException e) {
-            System.out.println(e);
+            //System.out.println(e);
             return "en";
         }
         return "en";

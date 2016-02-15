@@ -1,0 +1,8 @@
+name: RsText
+main: Rs.Plugin.Text.Text
+version: 1.0.0
+api: 1.0.0
+load: POSTWORLD
+author: zmdd
+depend:
+ - RsFunction

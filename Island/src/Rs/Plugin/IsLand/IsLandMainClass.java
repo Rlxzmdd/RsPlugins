@@ -1,7 +1,6 @@
 package Rs.Plugin.IsLand;
 
 import Rs.Plugin.Function.LangSend;
-import Rs.Plugin.Function.RsFunction;
 import Rs.Plugin.IsLand.command.MyIsLandCommand;
 import Rs.Plugin.IsLand.event.player.PlayerMoveToOtherIsLandEvent;
 import Rs.Plugin.IsLand.lang.lang;
@@ -16,6 +15,8 @@ import cn.nukkit.event.block.BlockPlaceEvent;
 import cn.nukkit.event.player.PlayerDeathEvent;
 import cn.nukkit.event.player.PlayerJoinEvent;
 import cn.nukkit.event.player.PlayerMoveEvent;
+import cn.nukkit.inventory.BigShapedRecipe;
+import cn.nukkit.item.Item;
 import cn.nukkit.level.generator.Generator;
 import cn.nukkit.math.Vector3;
 import cn.nukkit.plugin.PluginBase;
@@ -78,11 +79,15 @@ public class IsLandMainClass extends PluginBase implements Listener
         getServer().generateLevel("island",2333,IsLandGenerator.class);
         getServer().loadLevel("island");
         getServer().getLevelByName("island").setSpawnLocation(new Vector3(0.0D, 65.0D, 0.0D));
-        RsFunction asds = new RsFunction();
         // asds.getMsg("233", new lang(this.getDataFolder()), new RsFunction().getPlayerLang(event.getPlayer()));
         //getLogger().info(run.getMsg("Your.lang"));
         //new PlayerWarp("zmdd").setWarp(new Vector3(233,2323,23));
         //getLogger().info((new PlayerWarp("zmdd").getWarp().getY())+"");
+        this.getServer().getCraftingManager().registerRecipe((new BigShapedRecipe(new Item(1,0,5,"String"),
+                " I ",
+                "CCC"
+        )).setIngredient("C", new Item(2,0,1,"23")).setIngredient("I", Item.get(Item.STONE, 0, 1)));
+
     }
 
     @EventHandler
