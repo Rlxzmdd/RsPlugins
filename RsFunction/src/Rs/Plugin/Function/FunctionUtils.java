@@ -10,7 +10,32 @@ public class FunctionUtils {
         Locale locale = Locale.getDefault();
         String language = locale.getLanguage();
         String country = locale.getCountry();
-        switch (language){
+        switch (country){
+            case"CN":
+                return "zh";
+            case"TW":
+                return "zh";
+            case"HK":
+                return "zh";
+            case"MO":
+                return "zh";
+            case"BY":
+                return "ru";
+            case"RU":
+                return "ru";
+            case"JP":
+                return "ja";
+            case"KR":
+                return "ko";
+            case"US":
+                return "en";
+            case"GB":
+                return "en";
+        }
+        return this.getl(language);
+    }
+    public String getl(String c){
+        switch (c){
             case"zh":
                 return "zh";
             case"zh-CN":
@@ -36,31 +61,6 @@ public class FunctionUtils {
             case"ru-RU":
                 return "ru";
         }
-        return this.getl(country);
-    }
-    public String getl(String c){
-        switch (c){
-            case"CN":
-                return "zh";
-            case"TW":
-                return "zh";
-            case"HK":
-                return "zh";
-            case"MO":
-                return "zh";
-            case"BY":
-                return "ru";
-            case"RU":
-                return "ru";
-            case"JP":
-                return "ja";
-            case"KR":
-                return "ko";
-            case"US":
-                return "en";
-            case"GB":
-                return "en";
-        }
-        return "en";
+        return c;
     }
 }

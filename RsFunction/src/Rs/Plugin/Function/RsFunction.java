@@ -1,9 +1,19 @@
 package Rs.Plugin.Function;
 
+import Rs.Plugin.Function.Event.Player.PlayerBreakSignEvent;
+import Rs.Plugin.Function.Event.Player.PlayerPlaceSignEvent;
+import Rs.Plugin.Function.Event.Player.PlayerTouchSignEvent;
 import cn.nukkit.Player;
+import cn.nukkit.blockentity.BlockEntity;
+import cn.nukkit.blockentity.BlockEntitySign;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
+import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
+import cn.nukkit.event.block.BlockBreakEvent;
+import cn.nukkit.event.block.BlockPlaceEvent;
+import cn.nukkit.event.player.PlayerInteractEvent;
+import cn.nukkit.math.Vector3;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
 
@@ -99,6 +109,42 @@ public class RsFunction extends PluginBase implements Listener {
             }
         }
         return false;
+    }
+
+    @EventHandler
+    public void oni(PlayerInteractEvent e){
+        BlockEntity sign = this.getServer().getLevelByName(e.getPlayer().getLevel().getFolderName()).getBlockEntity(new Vector3(e.getBlock().getX(),e.getBlock().getY(),e.getBlock().getZ()));
+        if(sign instanceof BlockEntitySign){
+            PlayerTouchSignEvent ev = new PlayerTouchSignEvent(this,e.getPlayer(),(BlockEntitySign)sign);
+            this.getServer().getPluginManager().callEvent(ev);
+            if(ev.isCancelled()){
+                e.setCancelled();
+                return;
+            }
+        }
+    }
+    @EventHandler
+    public void onbp(BlockPlaceEvent e){
+        BlockEntity sign = this.getServer().getLevelByName(e.getPlayer().getLevel().getFolderName()).getBlockEntity(new Vector3(e.getBlock().getX(),e.getBlock().getY(),e.getBlock().getZ()));
+        if(sign instanceof BlockEntitySign){
+            PlayerPlaceSignEvent ev = new PlayerPlaceSignEvent(this,e.getPlayer(),(BlockEntitySign)sign);
+            this.getServer().getPluginManager().callEvent(ev);
+            if(ev.isCancelled()){
+                e.setCancelled();
+                return;
+            }
+        }
+    }
+    @EventHandler
+    public void onbsp(BlockBreakEvent e){
+       if(e.getBlock().getId() == 63){
+            PlayerBreakSignEvent ev = new PlayerBreakSignEvent(this,e.getPlayer(),e.getBlock());
+            this.getServer().getPluginManager().callEvent(ev);
+            if(ev.isCancelled()){
+                e.setCancelled();
+                return;
+            }
+        }
     }
 
     public String getMsg(String msg, Lang lang, String address) {

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RsMessage">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="RsMessage.jar">
+      <element id="module-output" name="RsMoney" />
+    </root>
+  </artifact>
+</component>
