@@ -20,6 +20,7 @@ public class RsEconomy extends PluginBase implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
+        this.getEconomy(event.getPlayer().getName()).getMoneyConfig().newConfig();
 
     }
     public MoneyClass getEconomy(String name){

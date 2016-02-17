@@ -31,17 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RsFunction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RsFunction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Function/RsFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.13636364">
+              <caret line="191" column="47" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1005#1059#0" expanded="false" />
                 <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
-                <element signature="method#getLang#0;class#RsFunction#0" expanded="false" />
-                <element signature="method#getPlayerLang#0;class#RsFunction#0" expanded="false" />
+                <element signature="method#onbsp#0;class#RsFunction#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerPlaceSignEvent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerPlaceSignEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Function/Event/Player/PlayerPlaceSignEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66071427">
+            <state vertical-scroll-proportion="0.0">
               <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/Event/EventAPI.java" />
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/Event/Player/PlayerTouchSignEvent.java" />
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/Event/Player/PlayerBreakSignEvent.java" />
-        <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/RsFunction.java" />
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/Event/Player/PlayerPlaceSignEvent.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Function/RsFunction.java" />
       </list>
     </option>
   </component>
@@ -197,7 +196,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="105" />
+    <option name="y" value="37" />
     <option name="width" value="1234" />
     <option name="height" value="804" />
   </component>
@@ -230,6 +230,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,9 +319,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,17 +523,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="0" width="1234" height="804" extended-state="0" />
+    <frame x="105" y="37" width="1234" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33304942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -549,6 +548,7 @@
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -625,8 +625,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1005#1059#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getLang#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getPlayerLang#0;class#RsFunction#0" expanded="false" />
+            <element signature="method#onbsp#0;class#RsFunction#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -683,8 +682,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1005#1059#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getLang#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getPlayerLang#0;class#RsFunction#0" expanded="false" />
+            <element signature="method#onbsp#0;class#RsFunction#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -741,8 +739,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1005#1059#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getLang#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getPlayerLang#0;class#RsFunction#0" expanded="false" />
+            <element signature="method#onbsp#0;class#RsFunction#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1029,27 +1026,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Function/RsFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1005#1059#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getLang#0;class#RsFunction#0" expanded="false" />
-            <element signature="method#getPlayerLang#0;class#RsFunction#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Function/Event/Player/PlayerPlaceSignEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66071427">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#PlayerPlaceSignEvent#0;class#PlayerPlaceSignEvent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Function/RsFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13636364">
+          <caret line="191" column="47" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1005#1059#0" expanded="false" />
+            <element signature="method#onCommand#0;class#RsFunction#0" expanded="false" />
+            <element signature="method#onbsp#0;class#RsFunction#0" expanded="false" />
           </folding>
         </state>
       </provider>

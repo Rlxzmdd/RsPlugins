@@ -26,7 +26,7 @@ import java.util.Random;
 
 
 public class RsAutoMainClass extends PluginBase implements Listener {
-    public HashMap<String, Map<String, Object>> PlayerConfig = new HashMap<>();
+    public static HashMap<String, Map<String, Object>> PlayerConfig = new HashMap<>();
     public RsFunction run = new Rs.Plugin.Function.RsFunction();
 
     public void onEnable() {
@@ -551,5 +551,9 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                 }
             }
         }
+    }
+
+    public int getPlayerState(String name){
+        return Integer.valueOf(PlayerConfig.get(name).get("isLogin").toString());
     }
 }

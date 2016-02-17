@@ -42,13 +42,13 @@ public class MoneyConfig {
         this.getConfig().save();
     }
     public float getPoint(){
-        return (float)(new Config(this.pluginfile+"config.yml")).getDouble("Point");
+        return (float)this.getConfig().getDouble("Point");
     }
     public void setMoney(float point){
         this.getConfig().set("Money",point);
         this.getConfig().save();
     }
     public float getMoney(){
-        return (float)(new Config(this.pluginfile+"config.yml")).getDouble("Money");
+        return (float)this.getConfig().getDouble("Money");
     }
 }
