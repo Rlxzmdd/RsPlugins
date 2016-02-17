@@ -1,4 +1,4 @@
 Text1: "[SHOP]"
-Text2: "%item * $number"
-Text3: "currency: %cur"
-Text4: "Money: %coin"
+Text2: "%item * %number"
+Text3: "%cur"
+Text4: "%money"

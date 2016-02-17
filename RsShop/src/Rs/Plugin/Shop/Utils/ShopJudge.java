@@ -14,4 +14,5 @@ public class ShopJudge {
             return false;
         }
     }
+
 }
