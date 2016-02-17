@@ -1,2 +1,4 @@
-Money: 10.00
-Point: 0.00
+Text1: "[SHOP]"
+Text2: "%item * $number"
+Text3: "currency: %cur"
+Text4: "Money: %coin"

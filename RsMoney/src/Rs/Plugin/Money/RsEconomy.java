@@ -15,8 +15,7 @@ public class RsEconomy extends PluginBase implements Listener {
         file.mkdirs();
         this.getServer().getPluginManager().registerEvents(this, this);
         this.saveResource("config.yml");
-        this.getEconomy("zmdd").getMoneyConfig().newConfig();
-
+       // this.getEconomy("zmdd").getMoneyConfig().newConfig();
     }
 
     @EventHandler

@@ -6,27 +6,48 @@ package Rs.Plugin.Function.Event.Player;
 
 import Rs.Plugin.Function.Event.EventAPI;
 import cn.nukkit.Player;
-import cn.nukkit.blockentity.BlockEntitySign;
+import cn.nukkit.block.Block;
+import cn.nukkit.event.HandlerList;
 import cn.nukkit.plugin.Plugin;
 
 
 public class PlayerPlaceSignEvent extends EventAPI
 {
-    protected BlockEntitySign sign;
+    protected String[] text;
     protected Player player;
+    protected Block block;
+    private static final HandlerList handlers = new HandlerList();
 
-    public PlayerPlaceSignEvent(Plugin plugin, Player player, BlockEntitySign sign)
+    public static HandlerList getHandlers() {
+        return handlers;
+    }
+    public PlayerPlaceSignEvent(Plugin plugin, Player player, String[] text,Block block)
     {
         super(plugin);
         this.player = player;
-        this.sign = sign;
+        this.text = text;
+        this.block = block;
     }
 
-    public BlockEntitySign getSign(){
-        return this.sign;
+    public String[] getText(){
+        return this.text;
+    }
+
+    public boolean setText(int line,String contect){
+        if(text.length > line || line > 0){
+            text[line] = contect;
+            return true;
+        }else{
+            return false;
+        }
+
     }
 
     public Player getPlayer(){
         return this.player;
+    }
+
+    public Block getBlock(){
+        return this.block;
     }
 }

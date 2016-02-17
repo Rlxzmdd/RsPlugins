@@ -6,23 +6,28 @@ package Rs.Plugin.Function.Event.Player;
 
 import Rs.Plugin.Function.Event.EventAPI;
 import cn.nukkit.Player;
-import cn.nukkit.block.Block;
+import cn.nukkit.blockentity.BlockEntitySign;
+import cn.nukkit.event.HandlerList;
 import cn.nukkit.plugin.Plugin;
 
 
 public class PlayerBreakSignEvent extends EventAPI
 {
-    protected Block sign;
+    protected BlockEntitySign sign;
     protected Player player;
+    private static final HandlerList handlers = new HandlerList();
 
-    public PlayerBreakSignEvent(Plugin plugin, Player player, Block sign)
+    public static HandlerList getHandlers() {
+        return handlers;
+    }
+    public PlayerBreakSignEvent(Plugin plugin, Player player, BlockEntitySign sign)
     {
         super(plugin);
         this.player = player;
         this.sign = sign;
     }
 
-    public Block getBlock(){
+    public BlockEntitySign getSign(){
         return this.sign;
     }
 
