@@ -3,7 +3,6 @@ package Rs.Plugin.Shop.Event.shop;
 import Rs.Plugin.Shop.Event.EventAPI;
 import Rs.Plugin.Shop.Shop;
 import cn.nukkit.Player;
-import cn.nukkit.event.HandlerList;
 import cn.nukkit.plugin.Plugin;
 
 /**
@@ -17,11 +16,7 @@ public class TouchShopEvent extends EventAPI{
         this.player = player;
         this.shop = shop;
     }
-    private static final HandlerList handlers = new HandlerList();
 
-    public static HandlerList getHandlers() {
-        return handlers;
-    }
     public Shop getShop(){
         return shop;
     }

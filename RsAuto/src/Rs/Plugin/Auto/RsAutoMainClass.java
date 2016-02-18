@@ -330,7 +330,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
     //  }
     //  }
 
-    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = false)
+    @EventHandler
     public void onPlayerInteract(PlayerInteractEvent event) {
         if (event.getPlayer().hasPermission("Rs.Event.Auto.CanInteract")) {
             return;

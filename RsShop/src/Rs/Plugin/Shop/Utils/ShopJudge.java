@@ -1,6 +1,5 @@
 package Rs.Plugin.Shop.Utils;
 
-import Rs.Plugin.Shop.Shop;
 import cn.nukkit.blockentity.BlockEntitySign;
 
 /**
@@ -19,12 +18,5 @@ public class ShopJudge {
     }
     public boolean isShop(BlockEntitySign sign){
         return new SignUtils(sign).getFile().exists();
-    }
-    public boolean isWillShop(Shop shop){
-        if(shop.getItem() == null){
-            return false;
-        }else{
-            return true;
-        }
     }
 }
