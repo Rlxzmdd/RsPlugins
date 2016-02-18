@@ -44,8 +44,8 @@
       <file leaf-file-name="RsAutoMainClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.1866884">
-              <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.24270073">
+              <caret line="320" column="81" selection-start-line="320" selection-start-column="81" selection-end-line="320" selection-end-column="81" />
               <folding>
                 <element signature="e#2528#2602#0" expanded="false" />
                 <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
@@ -53,11 +53,7 @@
                 <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="e#15318#15354#0" expanded="false" />
-                <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#24529#24530#0" expanded="true" />
-                <element signature="e#24617#24618#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,10 +89,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="3" />
+    <option name="x" value="175" />
+    <option name="y" value="11" />
     <option name="width" value="1234" />
-    <option name="height" value="804" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -127,8 +123,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,7 +158,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,8 +343,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="3" width="1234" height="804" extended-state="0" />
-    <editor active="false" />
+    <frame x="175" y="11" width="1234" height="736" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -357,7 +353,7 @@
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26235095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26660988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24957411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -389,6 +385,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -416,11 +420,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,11 +460,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,11 +500,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,11 +540,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -584,11 +572,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,11 +604,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,11 +636,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -692,11 +668,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,11 +700,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -764,11 +732,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,11 +764,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,11 +796,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -864,11 +820,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -892,11 +844,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,11 +868,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -963,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.1866884">
-          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.24270073">
+          <caret line="320" column="81" selection-start-line="320" selection-start-column="81" selection-end-line="320" selection-end-column="81" />
           <folding>
             <element signature="e#2528#2602#0" expanded="false" />
             <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
@@ -972,11 +916,7 @@
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#1;class#RsAutoMainClass#0" expanded="false" />
             <element signature="e#15318#15354#0" expanded="false" />
-            <element signature="method#onPlayerInteract#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#24529#24530#0" expanded="true" />
-            <element signature="e#24617#24618#0" expanded="true" />
           </folding>
         </state>
       </provider>

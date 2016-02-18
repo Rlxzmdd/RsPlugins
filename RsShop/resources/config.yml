@@ -2,3 +2,5 @@ Text1: "[SHOP]"
 Text2: "%item * %number"
 Text3: "%cur"
 Text4: "%money"
+
+WillCreate: "WillCreate"

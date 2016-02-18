@@ -9,10 +9,10 @@ import cn.nukkit.plugin.Plugin;
 /**
  * Created by Rlx on 2016/2/16.
  */
-public class TouchShopEvent extends EventAPI{
+public class BreakShopEvent extends EventAPI{
     public Player player;
     public Shop shop;
-    public TouchShopEvent(Plugin plugin,Player player,Shop shop) {
+    public BreakShopEvent(Plugin plugin,Player player,Shop shop) {
         super(plugin);
         this.player = player;
         this.shop = shop;

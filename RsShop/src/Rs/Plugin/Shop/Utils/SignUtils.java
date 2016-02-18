@@ -38,23 +38,4 @@ public class SignUtils {
         }
         return this.config;
     }
-    public void CreateShop(){
-       // System.out.print(123123);
-        if(getFile().exists()){
-            //System.out.print(123);
-            return;
-        }else{
-            System.out.print(123123123);
-            sign.setText("[SHOP]",sign.getText()[1] +"*"+sign.getText()[2],"Money:999");
-            getConfig().set("Item",sign.getText()[1]);
-            getConfig().set("Number",sign.getText()[2]);
-            getConfig().set("Coin","Money");
-            getConfig().set("Money",999);
-            getConfig().save();
-        }
-        //[Shop]
-        //��Ʒ:
-        //����:
-        //�ۼ�
-    }
 }
