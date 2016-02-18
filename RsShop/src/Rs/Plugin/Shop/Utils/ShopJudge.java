@@ -1,5 +1,7 @@
 package Rs.Plugin.Shop.Utils;
 
+import cn.nukkit.blockentity.BlockEntitySign;
+
 /**
  * Created by Rlx on 2016/2/16.
  */
@@ -14,5 +16,7 @@ public class ShopJudge {
             return false;
         }
     }
-
+    public boolean isShop(BlockEntitySign sign){
+        return new SignUtils(sign).getFile().exists();
+    }
 }

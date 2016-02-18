@@ -23,11 +23,8 @@ public class SignUtils {
                 "-"+new Double(this.sign.getBlock().getZ()).longValue();
         return (new File(file+"/Shops/"+asd+".json"));
     }
-    public boolean isShop(){
-        return getFile().exists();
-    }
     public Shop getShop(){
-        if(this.isShop()){
+        if(new ShopJudge().isShop(sign)){
             return new Shop(sign);
         }else{
             return null;
@@ -56,8 +53,8 @@ public class SignUtils {
             getConfig().save();
         }
         //[Shop]
-        //ÎïÆ·:
-        //ÊýÁ¿:
-        //ÊÛ¼Û
+        //ï¿½ï¿½Æ·:
+        //ï¿½ï¿½ï¿½ï¿½:
+        //ï¿½Û¼ï¿½
     }
 }

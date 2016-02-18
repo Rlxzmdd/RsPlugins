@@ -1,5 +1,6 @@
 package Rs.Plugin.Shop;
 
+import Rs.Plugin.Shop.Utils.SignUtils;
 import cn.nukkit.blockentity.BlockEntitySign;
 import cn.nukkit.utils.Config;
 
@@ -19,11 +20,7 @@ public class Shop {
         return getFile().exists();
     }
     public File getFile(){
-        String asd = this.sign.getBlock().getLevel().getFolderName()+
-                "-"+new Double(this.sign.getBlock().getX()).longValue()+
-                "-"+new Double(this.sign.getBlock().getY()).longValue()+
-                "-"+new Double(this.sign.getBlock().getZ()).longValue();
-        return (new File(file+"/Shops/"+asd+".json"));
+        return new SignUtils(sign).getFile();
     }
     public Config getConfig(){
         if(this.config == null) {
@@ -32,21 +29,5 @@ public class Shop {
             return this.config;
         }
         return this.config;
-    }
-    public void CreateShop(){
-        if(getFile().exists()){
-            return;
-        }else{
-            sign.setText("[SHOP]","1:1","64","Money:999");
-            getConfig().set("Item","1:1");
-            getConfig().set("Number",64);
-            getConfig().set("Coin","Money");
-            getConfig().set("Money",999);
-            getConfig().save();
-        }
-        //[Shop]
-        //物品:
-        //数量:
-        //售价
     }
 }

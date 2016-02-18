@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoneyConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Money/MoneyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.41558442">
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoneyClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Money/MoneyClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52435064">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="49" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="method#reduceMoney#0;class#MoneyClass#0" expanded="false" />
                 <element signature="method#reducePoint#0;class#MoneyClass#0" expanded="false" />
@@ -400,7 +400,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="46" width="1234" height="804" extended-state="1" />
+    <frame x="51" y="46" width="1234" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -834,25 +834,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Money/MoneyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Money/MoneyClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52435064">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="49" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="method#reduceMoney#0;class#MoneyClass#0" expanded="false" />
             <element signature="method#reducePoint#0;class#MoneyClass#0" expanded="false" />
             <element signature="method#addMoney#0;class#MoneyClass#0" expanded="false" />
             <element signature="method#addPoint#0;class#MoneyClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Money/MoneyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41558442">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
