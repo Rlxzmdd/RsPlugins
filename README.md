@@ -1,4 +1,4 @@
 # RsPlugins
-Nukkit插件
+Nukkit Plugins
 
 It Made in China
