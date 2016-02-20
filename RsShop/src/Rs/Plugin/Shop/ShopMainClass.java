@@ -10,6 +10,8 @@ import Rs.Plugin.Shop.Utils.BlockUtils;
 import Rs.Plugin.Shop.Utils.ShopJudge;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
+import cn.nukkit.event.player.PlayerJoinEvent;
+import cn.nukkit.level.particle.FloatingTextParticle;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
 
@@ -37,7 +39,9 @@ public class ShopMainClass extends PluginBase implements Listener {
         e.getPlayer().sendMessage(new Shop(e.getSign()).isShop()+"");
         new Shop(e.getSign()).CreateShop();
     }*/
-
+    public void onj(PlayerJoinEvent e){
+        e.getPlayer().getLevel().addParticle(new FloatingTextParticle(null ,"233"),e.getPlayer());
+    }
     @EventHandler
     public void oncc(PlayerTouchSignEvent e){
         if(new ShopJudge().isShop(e.getSign())){
@@ -92,11 +96,11 @@ public class ShopMainClass extends PluginBase implements Listener {
                 }
                 new BlockUtils(e.getBlock()).createShop("0","0",coin,money);
                 e.setText(0,config.getString("Text1"));
+                e.setText(2,config.getString("Text2").replaceAll("%cur", coin).replaceAll("%money",money));
+                e.setText(1,config.getString("Text3").replaceAll("%money", money).replaceAll("%cur",coin));
                 e.setText(3,getConfig().get("WillCreate").toString());
-                e.setText(2,config.getString("Text3").replaceAll("%cur",coin));
-                e.setText(1,config.getString("Text4").replaceAll("%money",money));
             }else{
-                e.setText(1,this.run.getMsg("Can.Create",e.getPlayer()));
+                e.setText(1,this.run.getMsg("Can.Not.Create",e.getPlayer()));
             }
         }
 
@@ -104,10 +108,23 @@ public class ShopMainClass extends PluginBase implements Listener {
 
     @EventHandler
     public void ont(TouchShopEvent e){
-        e.getPlayer().sendMessage(new ShopJudge().isWillShop(e.getShop())+"");
+        getLogger().info(new ShopJudge().isWillShop(e.getShop())+"");
+            if(new ShopJudge().isWillShop(e.getShop())) {
+
+                if (e.getPlayer().hasPermission("Rs.Event.Shop.setItem")) {
+                    e.getShop().setItem(e.getPlayer().getInventory().getItemInHand());
+                }
+            }else{
+                this.run.sM("No.Item.Shop",e.getPlayer());
+            }
+        e.setCancelled();
+        //e.getPlayer().sendMessage(new ShopJudge().isWillShop(e.getShop())+"");
     }
 
-
+    @EventHandler
+    public void obsg(BreakShopEvent e){
+        
+    }
 
     public static boolean isNum(String str) {
         try {

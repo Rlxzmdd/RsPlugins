@@ -22,9 +22,9 @@ public class ShopJudge {
     }
     public boolean isWillShop(Shop shop){
         if(shop.getItem() == null){
-            return false;
-        }else{
             return true;
+        }else{
+            return false;
         }
     }
 }

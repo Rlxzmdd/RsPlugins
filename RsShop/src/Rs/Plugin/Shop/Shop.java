@@ -31,9 +31,10 @@ public class Shop {
         return this.config;
     }
     public Item getItem() {
-        if (getConfig().get("Item").toString().equals("0")) {
+        if (getConfig().get("Number").toString().equals("0")) {
             return null;
         }else{
+           // System.out.print(getConfig().get("Number").toString());
             String[] asd = getConfig().get("Item").toString().split("\\.");
             return new Item((
                     Integer.parseInt(asd[0]))
@@ -42,7 +43,41 @@ public class Shop {
         }
     }
     public void setItem(Item item){
+        if(item.getId() == 0){
+            return;
+        }
         getConfig().set("Item",item.getId()+"."+item.getDamage());
-        getConfig().set("Numbet",item.getCount());
+        getConfig().set("Number",item.getCount()+"");
+        getConfig().save();
+        sign.setText(sign.getText()[0],sign.getText()[1],sign.getText()[2],new Config(new File("plugins/RsShop/")+"/config.yml").getString("Text4").replaceAll("%item",""+item.getId()+"."+item.getDamage()).replaceAll("%number", item.getCount() + ""));
     }
+    /*
+    public void canFly(Player p){
+        //文件格式：
+        //x1: x1
+        Double x1,z1,x2,z2;
+        //z1: z1
+        //x2: x2
+        //z2: z2
+        //就不考虑y了（也就是高度
+
+        if(x1 > x2){//x坐标的三种种情况
+            if(p.getX() > x2 || p.getX() < x1){
+                //判断玩家是否在两个x之间
+                //判断y
+            }else{
+                return;
+            }
+        }else if(x2 > x1){
+            if(p.getX() < x2 || p.getX() > x1){
+                //判断玩家是否在两个x之间
+                //然后判断y
+            }else{
+                return;
+            }
+        }else{
+            //判断y
+        }
+    }
+    */
 }
