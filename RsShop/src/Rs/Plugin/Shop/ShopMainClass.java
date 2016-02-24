@@ -123,9 +123,7 @@ public class ShopMainClass extends PluginBase implements Listener {
 
     @EventHandler
     public void obsg(BreakShopEvent e){
-        if(e.getPlayer().hasPermission("Rs.Event.Shop.BreakShop")){
-            e.setCancelled();
-        }
+        
     }
 
     public static boolean isNum(String str) {

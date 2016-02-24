@@ -11,7 +11,7 @@ commands:
  unregister:
   description: "注销某个玩家账号账号，消除密码"
   permission: Rs.Command.Auto.unregister
-  usage: "/unregister [账号] #如果你是普通玩家，你就只能输入你自己的账号"
+  usage: "/unregister [账号] //如果你是普通玩家，你就只能输入你自己的账号"
 permissions:
  Rs.Command.Auto.unregister:
   default: true
