@@ -23,6 +23,13 @@ public class SignUtils {
                 "-"+new Double(this.sign.getBlock().getZ()).longValue();
         return (new File(file+"/Shops/"+asd+".json"));
     }
+    public String getFileName(){
+        String asd = this.sign.getBlock().getLevel().getFolderName()+
+                "-"+new Double(this.sign.getBlock().getX()).longValue()+
+                "-"+new Double(this.sign.getBlock().getY()).longValue()+
+                "-"+new Double(this.sign.getBlock().getZ()).longValue();
+        return (asd+".json");
+    }
     public Shop getShop(){
         if(new ShopJudge().isShop(sign)){
             return new Shop(sign);

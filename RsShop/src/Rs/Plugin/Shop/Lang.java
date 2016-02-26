@@ -11,8 +11,12 @@ import java.util.Map;
 public class Lang implements Rs.Plugin.Function.Lang {
     @Override
     public String getMsg(String msg, String address) {
-        File qwe = new File(new File("plugins/RsMoney/").getAbsoluteFile()+"/"+address+".json");
-        if(qwe.exists()){
+        File qwe = new File(new File("plugins/RsShop/").getAbsoluteFile()+"/"+address+".json");
+        Config config = new Config(new File(new File("plugins/RsShop/").getAbsoluteFile() + "/en.json"));
+        config.set(msg,"-");
+        config.save();
+        return "";
+       /* if(qwe.exists()){
             Config config = new Config(qwe, Config.JSON);
             Map<String,Object> lang = config.getAll();
             if (!lang.containsKey(msg)) {
@@ -33,6 +37,7 @@ public class Lang implements Rs.Plugin.Function.Lang {
             } else {
                 return lang.get(msg).toString();
             }
-        }
+
+        }*/
     }
 }

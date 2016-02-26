@@ -12,5 +12,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="nukkit" level="project" />
     <orderEntry type="library" name="RsFunction" level="project" />
+    <orderEntry type="library" name="RsMoney" level="project" />
   </component>
 </module>

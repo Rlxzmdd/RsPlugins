@@ -51,6 +51,16 @@ public class Shop {
         getConfig().save();
         sign.setText(sign.getText()[0],sign.getText()[1],sign.getText()[2],new Config(new File("plugins/RsShop/")+"/config.yml").getString("Text4").replaceAll("%item",""+item.getId()+"."+item.getDamage()).replaceAll("%number", item.getCount() + ""));
     }
+    public void del(){
+       new File( new SignUtils(sign).file, new SignUtils(sign).getFileName()).delete();
+    }
+    public float getMoney(){
+        float money = Float.parseFloat(getConfig().getString("Money"));
+        return ( money);
+    }
+    public void setMoney(){
+        float money = Float.parseFloat(getConfig().getString("Money"));
+    }
     /*
     public void canFly(Player p){
         //文件格式：
