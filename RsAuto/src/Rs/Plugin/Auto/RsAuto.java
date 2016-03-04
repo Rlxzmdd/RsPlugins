@@ -5,6 +5,7 @@ import cn.nukkit.plugin.Plugin;
 import cn.nukkit.utils.Config;
 
 import java.io.File;
+import java.util.UUID;
 
 
 public class RsAuto {
@@ -26,7 +27,9 @@ public class RsAuto {
     public RsAuto() {
 
     }
-
+    public File getDataFolder(){
+        return ((new File("plugins/RsAuto/")).getAbsoluteFile());
+    }
     // public int OnloadPlayer(){
     //0为密码输入错误
     //1为密码输入正确
@@ -35,36 +38,81 @@ public class RsAuto {
     //3为未注册
     //}
     public String getPassword(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + name + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
             return config.get("Password").toString();
         } else {
             return null;
         }
     }
+    public String getUUID(String name) {
+        File file = new File(this.getDataFolder() + "/Players/" + name + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
+            return config.get("UUID").toString();
+        } else {
+            return null;
+        }
+    }
     public String getAddress(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
-        if (!file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+        File file = new File(this.getDataFolder() + "/Players/" + name + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
             return config.get("LastIP").toString();
         } else {
             return null;
         }
     }
     public String getLastTime(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (!file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            return config.get("LastTime").toString();
+        } else {
+            return null;
+        }
+    }
+    public String getPassword() {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            return config.get("Password").toString();
+        } else {
+            return null;
+        }
+    }
+    public String getUUID() {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            return config.get("UUID").toString();
+        } else {
+            return null;
+        }
+    }
+    public String getAddress() {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        if (!file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            return config.get("LastIP").toString();
+        } else {
+            return null;
+        }
+    }
+    public String getLastTime() {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        if (!file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             return config.get("LastTime").toString();
         } else {
             return null;
         }
     }
     public boolean setPassword(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             config.set("Password", name);
             config.save();
             return true;
@@ -84,9 +132,9 @@ public class RsAuto {
         }
     }
     public boolean setAddress(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             config.set("Address", name);
             config.save();
             return true;
@@ -95,9 +143,9 @@ public class RsAuto {
         }
     }
     public boolean setAddress(String name,String pwd) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + name + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + name + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
             config.set("Address", pwd);
             config.save();
             return true;
@@ -105,10 +153,32 @@ public class RsAuto {
             return false;
         }
     }
-    public boolean setLastTime(String name) {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+    public boolean setUUID(UUID uuid) {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            config.set("UUID", uuid);
+            config.save();
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public boolean setUUID(String name,UUID uuid) {
+        File file = new File(this.getDataFolder() + "/Players/" + name + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + name + ".json", Config.JSON);
+            config.set("UUID", uuid.toString());
+            config.save();
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public boolean setLastTime(String name) {
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        if (file.exists()) {
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             config.set("LastTime", name);
             config.save();
             return true;
@@ -120,9 +190,9 @@ public class RsAuto {
     public void NewPlayer() {
         //1注册成功
         //2，失败
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (!file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             config.set("Password", this.Password);
             config.set("LastIP", this.Player.getAddress());
             config.set("LastTime", "");
@@ -130,7 +200,7 @@ public class RsAuto {
             config.save();
             //return 1;
         } else {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             config.set("Password", this.Password);
             config.save();
             //return 1;
@@ -138,9 +208,9 @@ public class RsAuto {
     }
 
     public int HasRsg() {
-        File file = new File(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
+        File file = new File(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json");
         if (file.exists()) {
-            Config config = new Config(this.main.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
+            Config config = new Config(this.getDataFolder() + "/Players/" + this.Player.getName() + ".json", Config.JSON);
             if (config.get("Password").toString().equals("")) {
                 return 0;
             } else {

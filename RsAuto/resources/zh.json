@@ -17,6 +17,7 @@
 "Register.Re":"抱歉，请重新注册",
 
 "Login.Success":"登录成功！享受愉快的游戏吧！",
+"Login.Success.UUID": "自动登录成功！享受愉快的游戏吧！",
 
 "New.Player.1":"欢迎来到这个服务器",
 "New.Player.2":"请先进行注册",
@@ -34,5 +35,5 @@
 "This.no.Register":",这个账号没有注册",
 "Sc.unregister":"成功注销账号:",
 
-"Prefix":"[验证系统]"
+"Prefix":"Auto || "
 }

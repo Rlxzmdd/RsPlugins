@@ -1,38 +1,29 @@
-package Rs.Plugin.Function.Event.Player;
-
-/**
- *
- * Created by Rlx on 2016/2/15.
- */
+package Rs.Plugin.Auto.Event.Player;
 
 import Rs.Plugin.Function.Event.EventAPI;
 import cn.nukkit.Player;
 import cn.nukkit.blockentity.BlockEntitySign;
+import cn.nukkit.event.Cancellable;
 import cn.nukkit.event.HandlerList;
+import cn.nukkit.event.plugin.PluginEvent;
 import cn.nukkit.plugin.Plugin;
 
-
-public class PlayerTouchSignEvent extends EventAPI
-{
-    protected BlockEntitySign sign;
-    protected Player player;
+/**
+ * Created by admin on 2016/3/2.
+ */
+public class PlayerDoneLoginEvent extends EventAPI {
     private static final HandlerList handlers = new HandlerList();
+    private Player player;
 
     public static HandlerList getHandlers() {
         return handlers;
     }
-    public PlayerTouchSignEvent(Plugin plugin, Player player, BlockEntitySign sign)
+    public PlayerDoneLoginEvent(Plugin plugin, Player player)
     {
         super(plugin);
         this.player = player;
-        this.sign = sign;
     }
-
-    public BlockEntitySign getSign(){
-        return this.sign;
-    }
-
     public Player getPlayer(){
-        return this.player;
+        return player;
     }
 }

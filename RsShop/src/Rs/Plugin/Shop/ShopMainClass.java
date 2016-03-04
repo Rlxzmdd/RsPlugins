@@ -25,14 +25,14 @@ public class ShopMainClass extends PluginBase implements Listener {
     public Rs.Plugin.Function.LangSend run = new LangSend(new Lang());
 
     public void onEnable() {
-        File file = new File(this.getDataFolder() + "/Players/");
-        file.mkdirs();
         File asd = new File(this.getDataFolder() + "/Shops/");
         asd.mkdirs();
         this.getServer().getPluginManager().registerEvents(this, this);
         this.saveResource("config.yml");
         this.saveResource("items.properties");
-        this.run.getMsg("No.Item.Shop");
+        this.saveResource("en.json");
+        this.saveResource("zh.json");
+       // this.run.getMsg("No.Item.Shop");
     }
 
     public void onj(PlayerJoinEvent e) {
@@ -116,19 +116,19 @@ public class ShopMainClass extends PluginBase implements Listener {
         } else {
             if (!e.getPlayer().getInventory().canAddItem(e.getShop().getItem())) {
                 this.run.sM("Shop.No.Buy",e.getPlayer());
-                //²»ÄÜÌí¼ÓÎïÆ·£¬È¡Ïû¹ºÂò
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 e.setCancelled();
                 return;
             }
             float asd = new MoneyClass(e.getPlayer()).reduceMoney(e.getShop().getMoney());
             if (asd == 0) {
                 e.getPlayer().getInventory().addItem(e.getShop().getItem());
-                this.run.sM("Shop.Can.buy",e.getPlayer());
-                //¿ÉÒÔ¹ºÂò
+                this.run.sM("Shop.Can.Buy",e.getPlayer());
+                //ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½
             } else {
                 this.run.sM("Money.No.Enough",e.getPlayer());
                 return;
-                //Óà¶î²»¹»£¬ÏòplayerÊä³öasd±äÁ¿
+                //ï¿½ï¿½î²»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½playerï¿½ï¿½ï¿½asdï¿½ï¿½ï¿½ï¿½
             }
             //todo buy item
         }
@@ -140,7 +140,8 @@ public class ShopMainClass extends PluginBase implements Listener {
     public void obsg(BreakShopEvent e) {
         if (e.getPlayer().hasPermission("Rs.Event.Shop.BreakShop")) {
             this.run.sM("Shop.Can.Del",e.getPlayer());
-            //ÓÐÈ¨ÏÞ
+            //ï¿½ï¿½È¨ï¿½ï¿½
+            //ï¿½ï¿½È¨ï¿½ï¿½
             e.getShop().del();
         } else {
             this.run.sM("Shop.No.Del", e.getPlayer());

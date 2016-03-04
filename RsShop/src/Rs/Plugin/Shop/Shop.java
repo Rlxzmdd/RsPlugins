@@ -52,7 +52,7 @@ public class Shop {
         sign.setText(sign.getText()[0],sign.getText()[1],sign.getText()[2],new Config(new File("plugins/RsShop/")+"/config.yml").getString("Text4").replaceAll("%item",""+item.getId()+"."+item.getDamage()).replaceAll("%number", item.getCount() + ""));
     }
     public void del(){
-       new File( new SignUtils(sign).file, new SignUtils(sign).getFileName()).delete();
+        ( new File( new SignUtils(sign).file+"/Shops/", new SignUtils(sign).getFileName())).delete();
     }
     public float getMoney(){
         float money = Float.parseFloat(getConfig().getString("Money"));

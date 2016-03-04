@@ -25,36 +25,124 @@
         <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+              <folding>
+                <element signature="e#606#607#0" expanded="false" />
+                <element signature="e#678#679#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46168223">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RsAutoMainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+      <file leaf-file-name="zh.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/zh.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="320" column="81" selection-start-line="320" selection-start-column="81" selection-end-line="320" selection-end-column="81" />
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/en.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RsAutoMainClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22382198">
+              <caret line="330" column="5" selection-start-line="330" selection-start-column="5" selection-end-line="330" selection-end-column="5" />
               <folding>
-                <element signature="e#2528#2602#0" expanded="false" />
-                <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#3970#3978#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2021#2073#0" expanded="false" />
+                <element signature="e#2131#2209#0" expanded="false" />
+                <element signature="e#2842#2916#0" expanded="false" />
+                <element signature="e#4301#4309#0" expanded="false" />
+                <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
                 <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-                <element signature="e#15318#15354#0" expanded="false" />
+                <element signature="e#15150#15186#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Utils/AutoUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+              <folding>
+                <element signature="e#505#506#0" expanded="false" />
+                <element signature="e#543#544#0" expanded="false" />
+                <element signature="e#582#583#0" expanded="false" />
+                <element signature="e#614#615#0" expanded="false" />
+                <element signature="e#652#653#0" expanded="false" />
+                <element signature="e#686#687#0" expanded="false" />
+                <element signature="e#732#733#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#1633#1634#0" expanded="false" />
+                <element signature="e#1668#1669#0" expanded="false" />
+                <element signature="e#1698#1699#0" expanded="false" />
+                <element signature="e#1730#1731#0" expanded="false" />
+                <element signature="e#1758#1759#0" expanded="false" />
+                <element signature="e#1791#1792#0" expanded="false" />
+                <element signature="e#1825#1826#0" expanded="false" />
+                <element signature="e#1861#1862#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerInputPasswordEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerInputPasswordEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="e#565#566#0" expanded="false" />
+                <element signature="e#596#597#0" expanded="false" />
+                <element signature="e#808#809#0" expanded="false" />
+                <element signature="e#837#838#0" expanded="false" />
+                <element signature="e#870#871#0" expanded="false" />
+                <element signature="e#901#902#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerDoneLoginEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneLoginEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerDoneRegisterEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneRegisterEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,12 +152,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -80,8 +177,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java" />
-        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/EventAPI.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneLoginEvent.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneRegisterEvent.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerInputPasswordEvent.java" />
         <option value="$PROJECT_DIR$/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Utils/isLoginUtils.java" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/Utils/AutoUtils.java" />
+        <option value="$PROJECT_DIR$/resources/en.json" />
+        <option value="$PROJECT_DIR$/resources/zh.json" />
+        <option value="$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java" />
       </list>
     </option>
   </component>
@@ -89,10 +195,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="14" />
-    <option name="width" value="1234" />
-    <option name="height" value="751" />
+    <option name="x" value="42" />
+    <option name="y" value="198" />
+    <option name="width" value="1278" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,8 +213,8 @@
     <OptionsSetting value="true" id="更新" />
     <OptionsSetting value="true" id="状态" />
     <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -140,6 +246,58 @@
               <option name="myItemId" value="RsAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -155,18 +313,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RsAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RsFunction" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -216,12 +385,19 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="应用程序">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -268,9 +444,17 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR 应用程序">
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -301,19 +485,12 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="Application" factoryName="应用程序">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -323,12 +500,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="JarApplication" factoryName="JAR 应用程序">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
       <method />
     </configuration>
   </component>
@@ -346,20 +520,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="14" width="1234" height="751" extended-state="1" />
-    <editor active="true" />
+    <frame x="42" y="198" width="1278" height="920" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1984127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27086884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="设计师" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24957411" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -367,12 +540,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="设计师" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -396,22 +574,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -425,13 +587,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -440,47 +603,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
-            <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Lang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +613,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,13 +633,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="120" column="76" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -520,7 +649,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,7 +659,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,13 +679,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="120" column="76" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,7 +695,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,13 +715,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,7 +731,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,13 +751,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -624,7 +767,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,13 +787,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +803,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,13 +823,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,7 +839,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,13 +859,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -720,7 +875,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,13 +895,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,7 +911,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,13 +931,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,7 +947,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -801,13 +967,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,7 +983,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -825,13 +995,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -840,7 +1011,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,13 +1023,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,7 +1039,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,13 +1051,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
             <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -888,7 +1067,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,39 +1078,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneLoginEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerDoneRegisterEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Event/Player/PlayerInputPasswordEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/Utils/AutoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#686#687#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="false" />
+            <element signature="e#1668#1669#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
+            <element signature="e#1730#1731#0" expanded="false" />
+            <element signature="e#1758#1759#0" expanded="false" />
+            <element signature="e#1791#1792#0" expanded="false" />
+            <element signature="e#1825#1826#0" expanded="false" />
+            <element signature="e#1861#1862#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAuto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="320" column="81" selection-start-line="320" selection-start-column="81" selection-end-line="320" selection-end-column="81" />
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
-            <element signature="e#2528#2602#0" expanded="false" />
-            <element signature="method#onCommand#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#3970#3978#0" expanded="false" />
-            <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#onJoin#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="method#get#0;class#RsAutoMainClass#0" expanded="false" />
-            <element signature="e#15318#15354#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46168223">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/zh.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rs/Plugin/Auto/RsAutoMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22382198">
+          <caret line="330" column="5" selection-start-line="330" selection-start-column="5" selection-end-line="330" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2021#2073#0" expanded="false" />
+            <element signature="e#2131#2209#0" expanded="false" />
+            <element signature="e#2842#2916#0" expanded="false" />
+            <element signature="e#4301#4309#0" expanded="false" />
+            <element signature="method#onRsg#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="method#onPlayerRsg#0;class#RsAutoMainClass#0" expanded="false" />
+            <element signature="e#15150#15186#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,6 +17,7 @@
 "Register.Re":"Please re register",
 
 "Login.Success":"Successful Login! Please enjoy the game!",
+ "Login.Success.UUID": "Successful automatic Login! Please enjoy the game!",
 
 "New.Player.1":"Welcome to this server",
 "New.Player.2":"Please register first",
