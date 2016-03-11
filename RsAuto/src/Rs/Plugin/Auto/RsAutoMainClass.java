@@ -5,6 +5,7 @@ import Rs.Plugin.Auto.Event.Player.PlayerDoneRegisterEvent;
 import Rs.Plugin.Auto.Event.Player.PlayerInputPasswordEvent;
 import Rs.Plugin.Auto.Utils.AutoUtils;
 import Rs.Plugin.Function.Event.Player.PlayerTouchSignEvent;
+import Rs.Plugin.Function.LangSend;
 import Rs.Plugin.Function.RsFunction;
 import cn.nukkit.Player;
 import cn.nukkit.blockentity.BlockEntitySign;
@@ -33,7 +34,6 @@ import java.util.Random;
 
 public class RsAutoMainClass extends PluginBase implements Listener {
     public static HashMap<String, AutoUtils> PlayerConfig = new HashMap<>();
-    public RsFunction run = new Rs.Plugin.Function.RsFunction();
 
     public void onEnable() {
         this.saveResource("config.yml");
@@ -50,7 +50,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
 
         //asd.mkdirs();
         file.mkdirs();
-
+        getLogger().alert(this.get("Error.lang")+(new LangSend(new Lang()).getMsg("Enter.Player")));
         //getLogger().info(this.run.getMsg("Prefix", new Lang(), this.run.getLang()));
         //System.out.println(PlayerConfig);
         //HashMap qwe = new HashMap<String,Objects>();
@@ -101,7 +101,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
         //}else{
         //    sender.sendMessage(this.run.getMsg("Isnt.Player",new Lang(),this.run.getLang()));
         //    return true;
-        //}
+        //}  i
         return false;
     }
 
@@ -219,7 +219,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
         return true;
     }
 
-    @EventHandler(priority = EventPriority.LOWEST)
+    @EventHandler(priority = EventPriority.HIGHEST)
     public boolean onPlayerRsg(PlayerChatEvent event) {
         Player player = event.getPlayer();
         String name = player.getName();
@@ -320,10 +320,14 @@ public class RsAutoMainClass extends PluginBase implements Listener {
     }
 
     public String get(String lang, Player player) {
-        return (this.run.getMsg("Prefix", new Lang(), this.run.getPlayerLang(player)) + "" + this.run.getMsg(lang, new Lang(), this.run.getPlayerLang(player)));
-        //   sM(player, lang, new Lang());
-        /*Config config = new Config(this.getDataFolder() + "/config.yml", Config.YAML);
-        if(config.exists(lang)){
+        return ((
+                new LangSend(new Lang())
+                        .getMsg("Prefix",player))
+                +
+                (new LangSend(new Lang())
+                        .getMsg(lang,player)));
+
+    /*  if(config.exists(lang)){
             return config.get("Prefix").toString()+config.get(lang).toString();
         }else{
             return config.get("Prefix").toString()+config.get("error.lang").toString();
@@ -331,7 +335,7 @@ public class RsAutoMainClass extends PluginBase implements Listener {
     }
 
     public String get(String lang) {
-        return (this.run.getMsg("Prefix", new Lang(), this.run.getLang()) + "" + this.run.getMsg(lang, new Lang(), this.run.getLang()));
+        return get(lang,null);
     }
     //  public String get(String lang) {
     // return this.run.getMsg("Prefix",new Lang(),this.run.getPlayerLang(player)+this.run.getMsg(lang,new Lang(),this.run.getPlayerLang(player)));
@@ -375,13 +379,6 @@ public class RsAutoMainClass extends PluginBase implements Listener {
                 event.setCancelled();
             }
         }
-    }
-
-    @EventHandler
-    public void respawn(PlayerRespawnEvent event) {
-        System.out.print(event.getRespawnPosition().getX());
-        System.out.print(event.getPlayer().getX());
-        //  System.out.print("2323123123123");
     }
 
     @EventHandler

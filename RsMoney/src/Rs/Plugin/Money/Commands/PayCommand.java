@@ -4,6 +4,7 @@ import Rs.Plugin.Money.MoneyClass;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.plugin.Plugin;
 
+import java.awt.*;
 import java.math.BigDecimal;
 
 /**
@@ -13,7 +14,8 @@ public class PayCommand extends RsMoneyCommandAPI{
     public PayCommand(String cmd,Plugin plugin) {
         super(cmd);
         this.plugin = plugin;
-        this.setUsage("/pay [Player] [Count] (Money/Point)");
+        setUsage("/pay [Player] [Count] (Money/Point)");
+        this.setDescription("/pay [Player] [Count] (Money/Point)");
         setAliases(new String[]{"givemoney"});
         setDescription("Give other player money");
         setPermission("Rs.command.pay");
@@ -23,9 +25,11 @@ public class PayCommand extends RsMoneyCommandAPI{
     public boolean execute(CommandSender sender, String s, String[] args) {
         boolean money;
         if(args.length < 2){
+            sender.sendMessage("/pay [Player] [Count] (Money/Point)");
             return false;
         }
         if(!isNum(args[1])){
+            sender.sendMessage("/pay [Player] [Count] (Money/Point)");
             return false;
         }
         if(!(args.length < 2)) {
@@ -36,10 +40,11 @@ public class PayCommand extends RsMoneyCommandAPI{
             }else if(args[2].equals("Point") || args[2].equals("point") || args[2].equals("m") || args[2].equals("M")){
                 money = false;
             }else{
+                sender.sendMessage("/pay [Player] [Count] (Money/Point)");
                 return false;
             }
         }
-       if(!sender.getServer().getOfflinePlayer(args[0]).isOnline()){
+        if(!sender.getServer().getOfflinePlayer(args[0]).isOnline()){
             sender.sendMessage("Player ["+args[0]+"] is Offline");
             return true;
         }
@@ -52,7 +57,7 @@ public class PayCommand extends RsMoneyCommandAPI{
                 asd.addPoint(Float.valueOf(args[1]));
                 sender.sendMessage("Give ["+args[0]+"] Point : "+args[1]);
             }
-
+            return true;
         }
         float playermoney;
         MoneyClass qwe =  new MoneyClass(sender.getName());
@@ -72,7 +77,6 @@ public class PayCommand extends RsMoneyCommandAPI{
             asd.addPoint(Float.valueOf(args[1]));
             sender.sendMessage("Reduce Point: " + args[1] + ",Your Money: " + qwe.getPoint());
         }
-
         return true;
     }
 

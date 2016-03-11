@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RsLand">
+    <output-path>$PROJECT_DIR$/../../plugins</output-path>
+    <root id="archive" name="RsLand.jar">
+      <element id="module-output" name="RsLand" />
+    </root>
+  </artifact>
+</component>

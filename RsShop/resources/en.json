@@ -1,6 +1,6 @@
 {
   "Money.No.Enough": "You don't have enough money/point to buy it",
-  "Shop.Can.Buy": "Success buy shop's items",
+  "Shop.Can.Buy": "You spent (%Coin)%Money to buy %Item * $Number.",
   "Shop.Can.Del": "Success del this shop",
   "Shop.No.Create": "You can't",
   "Shop.No.Del": "You can't del this shop",

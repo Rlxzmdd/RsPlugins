@@ -17,17 +17,17 @@ public class SignUtils {
         this.sign = sign;
     }
     public File getFile(){
-        String asd = this.sign.getBlock().getLevel().getFolderName()+
-                "-"+new Double(this.sign.getBlock().getX()).longValue()+
-                "-"+new Double(this.sign.getBlock().getY()).longValue()+
-                "-"+new Double(this.sign.getBlock().getZ()).longValue();
+        String asd = this.sign.getBlock().getName()+
+                "-"+new Double(this.sign.getX()).longValue()+
+                "-"+new Double(this.sign.getY()).longValue()+
+                "-"+new Double(this.sign.getZ()).longValue();
         return (new File(file+"/Shops/"+asd+".json"));
     }
     public String getFileName(){
-        String asd = this.sign.getBlock().getLevel().getFolderName()+
-                "-"+new Double(this.sign.getBlock().getX()).longValue()+
-                "-"+new Double(this.sign.getBlock().getY()).longValue()+
-                "-"+new Double(this.sign.getBlock().getZ()).longValue();
+        String asd = this.sign.getLevel().getName()+
+                "-"+new Double(this.sign.getX()).longValue()+
+                "-"+new Double(this.sign.getY()).longValue()+
+                "-"+new Double(this.sign.getZ()).longValue();
         return (asd+".json");
     }
     public Shop getShop(){

@@ -27,7 +27,7 @@ public class BlockUtils {
         }
     }
     public File getFile(){
-        String asd = this.block.getLevel().getFolderName()+
+        String asd = this.block.getLevel().getName()+
                 "-"+new Double(this.block.getX()).longValue()+
                 "-"+new Double(this.block.getY()).longValue()+
                 "-"+new Double(this.block.getZ()).longValue();

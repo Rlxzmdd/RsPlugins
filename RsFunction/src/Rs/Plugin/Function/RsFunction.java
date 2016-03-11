@@ -38,7 +38,7 @@ public class RsFunction extends PluginBase implements Listener {
         getLogger().info("Next you will use :" + new FunctionUtils().getLang());
         File directory = new File("plugins/Language");
         File asdasd = new File(directory.getAbsolutePath() + "/Players");    //得到的是C:/test/abc
-        //directory.mkdirs();
+        directory.mkdirs();
         asdasd.mkdirs();
         //getLogger().info(getLang());
         this.getServer().getPluginManager().registerEvents(this, this);
@@ -62,25 +62,23 @@ public class RsFunction extends PluginBase implements Listener {
 
             if (args[0].equals("en") || args[0].equals("zh") || args[0].equals("ru") || args[0].equals("ja") || args[0].equals("ko")) {
                 if (sender instanceof Player) {
-                    File file = new File(this.fileName + "/Players/" + sender.getName() + ".json");
+                    File file = new File(this.fileName, "Languages.json");
                     if (file.exists()) {
                         Config config = new Config(file, Config.JSON);
-                        config.set("Address", ((Player) sender).getAddress());
-                        config.set("Lang", args[0]);
+                        config.set(((Player) sender).getAddress(),args[0]);
                         config.save();
                         sender.sendMessage("Change Language success");
                         return true;
                     } else {
                         Config config = new Config(file, Config.JSON);
-                        config.set("Address", ((Player) sender).getAddress());
-                        config.set("Lang", args[0]);
+                        config.set(((Player) sender).getAddress(),args[0]);
                         config.save();
                         sender.sendMessage("Change Language success");
                         //System.out.print(config+"");
                         return true;
                     }
                 } else {
-                    File file = new File(this.fileName + "/config.json");
+                    File file = new File(this.fileName ,"config.json");
                     if (file.exists()) {
                         Config config = new Config(file, Config.JSON);
                         config.set("Lang", args[0]);
@@ -160,54 +158,26 @@ public class RsFunction extends PluginBase implements Listener {
         }
     }
 
-    public String getMsg(String msg, Lang lang, String address) {
-        return lang.getMsg(msg, address);
-    }
 
-    public String getMsg(String msg, Lang lang) {
-        return lang.getMsg(msg, this.getLang());
-    }
-
-    public void sM(Player player, String msg, Lang lang) {
-        new LangSend(player, lang).sM(msg);
-    }
-
-    public String getLang() {
-        //getLogger().info(this.fileName);
-        File file = new File(this.fileName + "/config.json");
-        if (file.exists()) {
-            Config config = new Config(file, Config.JSON);
-            //return "eng";
-            config.set("Lang", new FunctionUtils().getLang());
-            config.save();
-            return config.get("Lang").toString();
-        } else {
-            Config config = new Config(file, Config.JSON);
-            config.set("Lang", new FunctionUtils().getLang());
-            config.save();
-            return config.get("Lang").toString();
-        }
-    }
 
     public String getPlayerLang(Player player) {
-        File file = new File(this.fileName + "/Players/" + player.getName() + ".json");
+        File file = new File(this.fileName,"Languages.json");
         if (file.exists()) {
             Config config = new Config(file, Config.JSON);
-            if (config.get("Address").toString().equals(player.getAddress())) {
-                return config.get("Lang").toString();
-            } else {
-                config.set("Address", player.getAddress());
-                config.set("Lang", new position(player.getAddress()).getLang());
+            if(!config.exists(player.getAddress())){
+                config.set(player.getAddress(), new position(player.getAddress()).getLang());
                 config.save();
-                return config.get("Lang").toString();
+                //System.out.print(config+"");
+                return config.get(player.getAddress()).toString();
+            }else{
+                return config.getString(player.getAddress());
             }
         } else {
             Config config = new Config(file, Config.JSON);
-            config.set("Address", player.getAddress());
-            config.set("Lang", new position(player.getAddress()).getLang());
+            config.set(player.getAddress(), new position(player.getAddress()).getLang());
             config.save();
             //System.out.print(config+"");
-            return config.get("Lang").toString();
+            return config.get(player.getAddress()).toString();
         }
     }
 }

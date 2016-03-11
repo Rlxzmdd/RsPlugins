@@ -40,11 +40,11 @@ public class MoneyClass {
     }
     public void addMoney(float money){
         float mon = this.getMoneyConfig().getMoney();
-        this.getMoneyConfig().setMoney(mon+money);
+        this.getMoneyConfig().setMoney(mon + money);
     }
-    public void addPoint(float money){
+    public void addPoint(float point){
         float mon = this.getMoneyConfig().getPoint();
-        this.getMoneyConfig().setPoint(mon + money);
+        this.getMoneyConfig().setPoint(mon + point);
     }
     public float getMoney(){
         return this.getMoneyConfig().getMoney();

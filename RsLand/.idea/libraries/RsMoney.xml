@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RsMoney">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../plugins/RsMoney.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

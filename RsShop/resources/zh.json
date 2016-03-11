@@ -1,6 +1,6 @@
 {
   "Money.No.Enough": "你没有足够的金钱·",
-  "Shop.Can.Buy": "成功从商店购买物品",
+  "Shop.Can.Buy": "你花费了 (%Coin)%Money 来购买 %Item * %Number.",
   "Shop.Can.Del": "成功删除了这个商店",
   "Shop.No.Create": "没有权限",
   "Shop.No.Del": "你不能删除这个商店",

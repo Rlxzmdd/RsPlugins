@@ -1,0 +1,5 @@
+Text1: "[SELL]"
+Text2: "%cur"
+Text3: "%money"
+Text4: "%item * %number"
+WillCreate: "WillCreate"

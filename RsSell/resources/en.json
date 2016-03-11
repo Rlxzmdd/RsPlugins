@@ -1,0 +1,8 @@
+{
+  "Item.No.Enough": "You don't have enough items to sell",
+  "Sell.Can.Buy": "You sell %Item * $Number to get (%Coin)%Money.",
+  "Sell.Can.Del": "Success del this Sell",
+  "Sell.No.Create": "You can't",
+  "Sell.No.Del": "You can't del this Sell",
+  "Sell.No.Buy": "The Sell can't use"
+}

@@ -1,0 +1,8 @@
+{
+  "Item.No.Enough": "没有足够的物品",
+  "Sell.Can.Buy": "你出售了 %Item * %Number ，得到了 (%Coin)%Money .",
+  "Sell.Can.Del": "成功删除了这个商店",
+  "Sell.No.Create": "没有权限",
+  "Sell.No.Del": "你不能删除这个商店",
+  "Sell.No.Buy": "这个商店无法使用"
+}

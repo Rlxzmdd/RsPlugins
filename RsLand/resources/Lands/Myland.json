@@ -1,0 +1,31 @@
+{
+  "Host":"XXX",
+  "X":"123",
+  "Y":"123",
+  "Z":"123",
+  "Permission":{
+    "place":false,
+    "break":false,
+    "chest":false,
+    "move":true,
+    "use":false,
+    "pvp":false,
+    "tp":true
+  },
+  "Trusts":{
+    "zmdd":{
+      "place":false,
+      "break":false,
+      "chest":false,
+      "move":true,
+      "use":false,
+      "pvp":false,
+      "tp":true
+    }
+  },
+  "TP":{
+    "X":"123",
+    "Y":"123",
+    "Z":"123"
+  }
+}

@@ -1,5 +1,8 @@
 package Rs.Plugin.Function;
 
+import cn.nukkit.utils.Config;
+
+import java.io.File;
 import java.util.Locale;
 
 /**
@@ -62,5 +65,22 @@ public class FunctionUtils {
                 return "ru";
         }
         return c;
+    }
+
+    public String getSystemLang() {
+        //getLogger().info(this.fileName);
+        File file = new File(new File("plugins/Language").getAbsolutePath(), "config.json");
+        if (file.exists()) {
+            Config config = new Config(file, Config.JSON);
+            //return "eng";
+            config.set("Lang", new FunctionUtils().getLang());
+            config.save();
+            return config.get("Lang").toString();
+        } else {
+            Config config = new Config(file, Config.JSON);
+            config.set("Lang", new FunctionUtils().getLang());
+            config.save();
+            return config.get("Lang").toString();
+        }
     }
 }

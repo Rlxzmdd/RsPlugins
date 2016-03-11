@@ -12,6 +12,7 @@ import Rs.Plugin.Shop.Utils.ShopJudge;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.player.PlayerJoinEvent;
+import cn.nukkit.item.Item;
 import cn.nukkit.level.particle.FloatingTextParticle;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
@@ -105,6 +106,7 @@ public class ShopMainClass extends PluginBase implements Listener {
 
     @EventHandler
     public void ont(TouchShopEvent e) {
+        run.player = e.getPlayer();
         //getLogger().info(new ShopJudge().isWillShop(e.getShop())+"");
         if (new ShopJudge().isWillShop(e.getShop())) {
             if (e.getPlayer().hasPermission("Rs.Event.Shop.setItem")) {
@@ -114,16 +116,34 @@ public class ShopMainClass extends PluginBase implements Listener {
                 return;
             }
         } else {
-            if (!e.getPlayer().getInventory().canAddItem(e.getShop().getItem())) {
-                this.run.sM("Shop.No.Buy",e.getPlayer());
-                //���������Ʒ��ȡ������
-                e.setCancelled();
+            if(!e.getPlayer().getInventory().canAddItem(e.getShop().getItem())){
+                this.run.sM("Shop.No.Buy", e.getPlayer());
                 return;
             }
-            float asd = new MoneyClass(e.getPlayer()).reduceMoney(e.getShop().getMoney());
+            float asd;
+            boolean qwe;
+            if(e.getShop().getCoin().equals("Point")){
+                asd = new MoneyClass(e.getPlayer()).reducePoint(e.getShop().getMoney());
+                qwe = false;
+            }else{
+                asd = new MoneyClass(e.getPlayer()).reduceMoney(e.getShop().getMoney());
+                qwe = true;
+            }
+
             if (asd == 0) {
                 e.getPlayer().getInventory().addItem(e.getShop().getItem());
-                this.run.sM("Shop.Can.Buy",e.getPlayer());
+                if(qwe){   e.getPlayer().sendMessage(run.getMsg("Shop.Can.Buy",e.getPlayer()).
+                        replaceAll("%Coin","Money").
+                        replaceAll("%Money",e.getShop().getMoney()+"").
+                        replaceAll("%Item",e.getShop().getItem().getId()+" : "+e.getShop().getItem().getDamage()).
+                        replaceAll("%Number",e.getShop().getItem().getCount()+""));
+                }else {
+                    e.getPlayer().sendMessage(run.getMsg("Shop.Can.Buy",e.getPlayer()).
+                            replaceAll("%Coin","Point").
+                            replaceAll("%Money",e.getShop().getMoney()+"").
+                            replaceAll("%Item",e.getShop().getItem().getId()+" : "+e.getShop().getItem().getDamage()).
+                           replaceAll("%Number",e.getShop().getItem().getCount()+""));
+                }
                 //���Թ���
             } else {
                 this.run.sM("Money.No.Enough",e.getPlayer());

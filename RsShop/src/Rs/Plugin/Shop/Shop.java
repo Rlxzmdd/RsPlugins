@@ -58,6 +58,10 @@ public class Shop {
         float money = Float.parseFloat(getConfig().getString("Money"));
         return ( money);
     }
+    public String  getCoin(){
+        String money = (getConfig().getString("Coin"));
+        return ( money);
+    }
     public void setMoney(){
         float money = Float.parseFloat(getConfig().getString("Money"));
     }

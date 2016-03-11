@@ -1,5 +1,6 @@
 package Rs.Plugin.Message;
 
+import Rs.Plugin.Function.LangSend;
 import Rs.Plugin.Function.RsFunction;
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
@@ -19,7 +20,7 @@ import java.util.Set;
 
 public class MessageMainClass extends PluginBase implements Listener {
 
-    public RsFunction run = new RsFunction();
+    public LangSend run = new Rs.Plugin.Function.LangSend(new Lang());
 
     public void onEnable() {
         //File asd = new File(getDataFolder() + "/Langs/");
@@ -36,10 +37,10 @@ public class MessageMainClass extends PluginBase implements Listener {
         //初步完成
    }
     public String get(String lang,Player player) {
-        return (this.run.getMsg(lang,new Rs.Plugin.Message.Lang(),this.run.getPlayerLang(player)));
+        return (this.run.getMsg(lang,player));
     }
     public String get(String lang) {
-        return (this.run.getMsg(lang,new Rs.Plugin.Message.Lang(),this.run.getLang()));
+        return (this.run.getMsg(lang,null));
     }
 
     @EventHandler

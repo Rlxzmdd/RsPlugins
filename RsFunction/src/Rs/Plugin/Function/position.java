@@ -21,7 +21,7 @@ public class position
         this.ip = ip;
         this.player = player;
     }
-    public position(String ip, Player player, Plugin mainClass) {
+    public position(String  ip, Player player, Plugin mainClass) {
         this.ip = ip;
         this.player = player;
         this.plugin = mainClass;
