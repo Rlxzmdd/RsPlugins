@@ -50,7 +50,6 @@ public class RsAutoMainClass extends PluginBase implements Listener {
 
         //asd.mkdirs();
         file.mkdirs();
-        getLogger().alert(this.get("Error.lang")+(new LangSend(new Lang()).getMsg("Enter.Player")));
         //getLogger().info(this.run.getMsg("Prefix", new Lang(), this.run.getLang()));
         //System.out.println(PlayerConfig);
         //HashMap qwe = new HashMap<String,Objects>();

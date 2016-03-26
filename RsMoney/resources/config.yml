@@ -1,2 +1,6 @@
-Money: 10.00
-Point: 0.00
+Coin:
+ Point: point
+ Money: money
+Number:
+ Point: 0.00
+ Money: 10.00

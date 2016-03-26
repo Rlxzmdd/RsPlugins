@@ -1,5 +1,5 @@
 name: RsMoney
-main: Rs.Plugin.Money.RsEconomy
+main: Rs.Plugin.Money.MoneyMainClass
 version: 1.0.1
 api: 1.0.0
 load: POSTWORLD

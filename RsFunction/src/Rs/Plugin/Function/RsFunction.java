@@ -3,6 +3,8 @@ package Rs.Plugin.Function;
 import Rs.Plugin.Function.Event.Player.PlayerBreakSignEvent;
 import Rs.Plugin.Function.Event.Player.PlayerPlaceSignEvent;
 import Rs.Plugin.Function.Event.Player.PlayerTouchSignEvent;
+import Rs.Plugin.Function.Utils.FunctionUtils;
+import Rs.Plugin.Function.Utils.position;
 import cn.nukkit.Player;
 import cn.nukkit.blockentity.BlockEntity;
 import cn.nukkit.blockentity.BlockEntitySign;
@@ -13,6 +15,7 @@ import cn.nukkit.event.Listener;
 import cn.nukkit.event.block.BlockBreakEvent;
 import cn.nukkit.event.block.SignChangeEvent;
 import cn.nukkit.event.player.PlayerInteractEvent;
+import cn.nukkit.event.server.DataPacketReceiveEvent;
 import cn.nukkit.math.Vector3;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
@@ -34,12 +37,9 @@ public class RsFunction extends PluginBase implements Listener {
         //File asd = new File(getDataFolder() + "/Players/");
         //asd.mkdirs();
         Locale locale = Locale.getDefault();
-        getLogger().info("You look like come from : " + locale.getCountry());
-        getLogger().info("Next you will use :" + new FunctionUtils().getLang());
+        getLogger().info("You will use :" + new FunctionUtils().getSystemLang());
         File directory = new File("plugins/Language");
-        File asdasd = new File(directory.getAbsolutePath() + "/Players");    //得到的是C:/test/abc
         directory.mkdirs();
-        asdasd.mkdirs();
         //getLogger().info(getLang());
         this.getServer().getPluginManager().registerEvents(this, this);
     }
@@ -157,8 +157,6 @@ public class RsFunction extends PluginBase implements Listener {
             }
         }
     }
-
-
 
     public String getPlayerLang(Player player) {
         File file = new File(this.fileName,"Languages.json");

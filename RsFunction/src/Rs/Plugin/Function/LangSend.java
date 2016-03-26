@@ -1,5 +1,8 @@
 package Rs.Plugin.Function;
 
+import Rs.Plugin.Function.Lang;
+import Rs.Plugin.Function.RsFunction;
+import Rs.Plugin.Function.Utils.FunctionUtils;
 import cn.nukkit.Player;
 import cn.nukkit.utils.Config;
 

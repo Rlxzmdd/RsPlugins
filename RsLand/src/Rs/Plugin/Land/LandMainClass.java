@@ -4,6 +4,7 @@ import Rs.Plugin.Function.LangSend;
 import Rs.Plugin.Land.Commands.LandCommandManager;
 import Rs.Plugin.Land.Listeners.LandListenerManager;
 import Rs.Plugin.Land.Utils.LandLang;
+import Rs.Plugin.Money.MoneyMainClass;
 import cn.nukkit.event.Listener;
 import cn.nukkit.plugin.PluginBase;
 

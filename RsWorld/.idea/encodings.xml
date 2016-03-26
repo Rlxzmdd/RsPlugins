@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/resources/en.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/zh.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rs/Plugin/World/Listeners/Player/ListenerPlace.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Rs/Plugin/World/Listeners/Player/ListenerUse.java" charset="UTF-8" />
+  </component>
+</project>
